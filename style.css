@@ -1,0 +1,527 @@
+
+* {
+    font-family: "Karla";
+  }
+  
+  html {
+    scroll-behavior:smooth;
+  }
+  
+  body {
+    margin: 0;
+    line-height: normal;
+    font-family: 'Karla';
+    cursor: url(img/cursor1.png), auto;
+  }
+  
+  .main-page-child,
+  .main-page-inner {
+    position: absolute;
+    top: 844px;
+    left: 1351px;
+    width: 13px;
+    height: 13px;
+    object-fit: contain;
+  }
+  .main-page-inner {
+    top: 836px;
+    left: 1343px;
+    width: 22px;
+    height: 22px;
+  }
+  .rectangle-div {
+    position: absolute;
+    top: 830px;
+    left: -1px;
+    background-color: #3e4244;
+    width: 1441px;
+    height: 1796px;
+  }
+  
+  .mountain-1 {
+    position: absolute;
+    top: 2100px;
+    left: -158px;
+    width: 677px;
+    height: 604.9px;
+    object-fit: cover;
+  }
+  
+  .mountain-2 {
+    position: absolute;
+    top: 2100px;
+    left: 1200px;
+    width: 677px;
+    height: 604.9px;
+    object-fit: cover;
+  }
+  .main-page-hero-background{
+    position: absolute;
+    top: 2724px;
+    left: -1px;
+    background-color: #fdfbf7;
+    width: 1441px;
+    height: 579px;
+  }
+  .main-page-hero-background {
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 598px;
+  }
+  .mountain-greens-1 {
+    position: absolute;
+    top: 206px;
+    left: -11px;
+    width: 1452px;
+    height: 991px;
+    object-fit: cover;
+  }
+  
+  .anniversary-invite,
+  .anniversary,
+  .about-text,
+  .about-us-text {
+    margin: 0;
+    border-bottom: 4px solid transparent;
+    transition: border-bottom 500ms ease-in-out;
+  }
+  
+  .about-us-text {
+    color: white;
+  }
+  
+  .about-text a {
+    color: #fff;
+  }
+  
+  .about-text a:visited {
+    color: #fff; 
+  }
+  
+  .about-us-text:hover {
+    border-bottom: 2px solid #fff;
+  }
+  .about-the-quests,
+  .anniversary-container,
+  .welcome-to-the {
+    position: absolute;
+    top: 344px;
+    left: 76px;
+    font-size: 24px;
+    font-weight: 600;
+    display: inline-block;
+    width: 723px;
+    height: 114px;
+    z-index: 5;
+    cursor: auto;
+  }
+  .about-the-quests,
+  .welcome-to-the {
+    top: 191px;
+    font-size: 36px;
+    width: 470px;
+    height: 72px;
+  }
+  .about-the-quests {
+    top: 1244px;
+    left: 127px;
+    font-size: 48px;
+    color: #fff;
+    width: 569px;
+    height: 135px;
+  }
+  .about-day-quest-container,
+  .about-us-more-container {
+    position: absolute;
+    top: 2795px;
+    left: 639px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 175px;
+    height: 203px;
+    cursor: auto;
+  
+  }
+  
+  .about-text {
+    color: #fff;
+  }
+  .about-day-quest-container {
+    top: 2797px;
+    left: 285px;
+    height: 132px;
+  }
+  .fest-sponsor-1,
+  .fest-sponsor-2,
+  .fest-sponsor-3 {
+    position: absolute;
+    top: 3101px;
+    left: 314px;
+    width: 292px;
+    height: 60px;
+    object-fit: cover;
+  }
+  .fest-sponsor-2,
+  .fest-sponsor-3 {
+    left: 644px;
+    width: 153px;
+    height: 64px;
+  }
+  .fest-sponsor-3 {
+    top: 3085px;
+    left: 835px;
+    width: 217px;
+    height: 80px;
+  }
+  
+  .contact-us-container {
+    position: absolute;
+    top: 2795px;
+    left: 993px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 273px;
+    height: 178px;
+    cursor: auto;
+  
+  }
+  .ticket-empty {
+    position: absolute;
+    top: 1341px;
+    left: 76px;
+    width: 819px;
+    height: 313px;
+    object-fit: cover;
+  }
+  
+  .ticket-empty-2 {
+    position: absolute;
+    top: 1686px;
+    left: 76px;
+    width: 819px;
+    height: 313px;
+    object-fit: cover;
+  }
+  .day-quest {
+    cursor: auto;
+    position: absolute;
+    top: 1371px;
+    left: 408px;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: 500;
+    display: inline-block;
+    width: 156px;
+    height: 36px;
+  }
+  .age-6-main,
+  .place,
+  .september-14 {
+    position: absolute;
+    top: 47px;
+    left: 0;
+    display: inline-block;
+    width: 72px;
+    height: 24px;
+    cursor: auto;
+  }
+  .place,
+  .september-14 {
+    top: 22px;
+    width: 220px;
+    height: 18px;
+    cursor: auto;
+  }
+  .september-14 {
+    top: 0;
+    width: 170px;
+    height: 15px;
+  }
+  .age-6-parent {
+    position: absolute;
+    top: 1427px;
+    left: 605px;
+    width: 220px;
+    height: 71px;
+    font-size: 13px;
+    cursor: auto;
+    z-index: 10;
+  }
+  .anniversary-container1 {
+    position: absolute;
+    top: 1426px;
+    left: 175px;
+    font-weight: 600;
+    display: inline-block;
+    width: 313px;
+    height: 94px;
+  }
+  
+  .buy-tickets,
+  .find-out-more {
+    position: absolute;
+    top: 7px;
+    left: 50px;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .buy-tickets {
+    z-index: 1;
+  }
+  
+  
+  .find-out-more {
+    left: 0px;
+    right: 0px;
+    z-index: 5;
+  }
+  
+  .evening-quest1 {
+    position: absolute;
+    top: 1716px;
+    left: 380px;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: 500;
+    display: inline-block;
+    width: 215px;
+    height: 36px;
+    cursor: auto;
+  }
+  .age-16-parent {
+    position: absolute;
+    top: 1772px;
+    left: 605px;
+    width: 220px;
+    height: 71px;
+    font-size: 13px;
+    cursor: auto;
+    z-index: 10;
+  }
+  .anniversary-container2 {
+    cursor: auto;
+    position: absolute;
+    top: 1771px;
+    left: 175px;
+    font-weight: 600;
+    display: inline-block;
+    width: 313px;
+    height: 94px;
+  }
+  
+  /* START OF THE TICKETS CSS  */
+  
+  .ticket-button1,
+  .ticket-button2 {
+    font-family: 'Karla';
+    font-size: larger;
+    position: absolute;
+    top: 1530px;
+    left: 268px;
+    border-radius: 30px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: pointer;
+    width: 176px;
+    height: 38px;
+    transition: background-color 0.5s cubic-bezier(0.39, 0.58, 0.57, 1), color 0.3s ease;
+  }
+  .ticket-button2 {
+    left: 531px;
+  }
+  
+  .ticket2-button1,
+  .ticket2-button2 {
+    font-family: 'Karla';
+    font-size: larger;
+    position: absolute;
+    top: 1875px;
+    left: 268px;
+    border-radius: 30px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: pointer;
+    width: 176px !important;
+    height: 38px !important;
+    transition: background-color 0.5s cubic-bezier(0.39, 0.58, 0.57, 1), color 0.3s ease;
+  
+  }
+  .ticket2-button2 {
+    left: 531px;
+  }
+  .ticket-button1 {
+    color: #000; 
+  }
+  
+  .ticket-button1:hover,
+  .ticket2-button2:hover {
+    background-color: #3e4244;
+    color: #fff; 
+  }
+  
+  .ticket-button2:hover {
+    background-color: #3e4244;
+    color: #fff;
+    z-index: 2;
+  }
+  
+  .ticket2-button1:hover {
+    background-color: #3e4244;
+    color: #fff;
+  }
+  
+  .ticket-button1 a,
+  .ticket-button1 a .buy-tickets,
+  .ticket-button2 a,
+  .ticket-button2 a .find-out-more
+  .ticket2-button1 a,
+  .ticket2-button1 a .buy-tickets2,
+  .ticket2-button2 a,
+  .ticket2-button2 a .find-out-more2{
+    color: inherit; 
+    text-decoration: none;
+  }
+  
+  
+  
+  .buy-tickets2,
+  .find-out-more2 {
+    position: absolute;
+    top: 1884px;
+    left: 279px;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+    width: 153px;
+    height: 24px;
+  }
+  .buy-tickets2, a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .find-out-more2 {
+    left: 535px;
+    z-index: 5;
+  }
+  .sparky-dragon,
+  .dark-trees-2 {
+    position: absolute;
+    top: 2384px;
+    left: 1078px;
+    width: 541px;
+    height: 340px;
+    object-fit: cover;
+  }
+  
+  .dark-trees-2 {
+    z-index: 2;
+  }
+  .sparky-dragon {
+    top: 472px;
+    left: 619px;
+    width: 901px;
+    height: 1555px;
+  }
+  .dark-trees,
+  .video-template {
+    position: absolute;
+    top: 2100px;
+    left: 163px;
+    width: 1113px;
+    height: 624px;
+    object-fit: cover;
+  }
+  
+  .video-template {
+    z-index: 10;
+  }
+  
+  .dark-trees {
+    top: 2358px;
+    left: -7px;
+    width: 951px;
+    height: 366px;
+    object-fit: contain;
+    z-index: 4;
+  }
+  .main-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0e1013;
+    width: 100%;
+    height: 3303px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+  }
+  /* THIS IS WHERE THE NAVIGATION CODE STARTS */
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fdfbf7;
+    position: relative;
+    cursor: auto;
+  }
+  
+  .night-nav {
+    background-color: #aaa2a2;
+  }
+  
+  .dragonlogo, .logo-dragon {
+    align-items: flex-start;
+    width: 5vw; 
+    height: calc(9.24vw / 1.732);
+    object-fit: contain;
+    margin-top: 5px;
+    margin-left: 20px;
+    z-index: 10;
+  }
+  
+  .dragon-logo, .rotate {
+    animation: rotation 8s infinite linear;
+    transform-origin: center;
+  
+  }
+  
+  .night {
+    top: 2600px;
+  }
+  
+  ul {
+    margin-right: 5%;
+  }
+  
+  ul li {
+    list-style: none;
+    text-wrap: nowrap ; 
+    display: inline-block; 
+    padding: 15px;
+    transition: background-color 0.5s cubic-bezier(0.39, 0.58, 0.57, 1), color 0.3s ease;
+    border-radius: 30px;
+  }
+  
+  ul li a{
+    text-decoration: none;
+    color: #000;
+  }
+  
+  ul li:hover {
+    background-color: #3e4244;
+    color: #fff;
+  }
+  
+  ul li a:hover {
+    color: #fff;
+  }
+  
