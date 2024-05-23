@@ -22,13 +22,15 @@
     width: 13px;
     height: 13px;
     object-fit: contain;
-  }
+}
+
   .main-page-inner {
     top: 836px;
     left: 1343px;
     width: 22px;
     height: 22px;
-  }
+}
+
   .rectangle-div {
     position: absolute;
     top: 830px;
@@ -36,7 +38,7 @@
     background-color: #3e4244;
     width: 1441px;
     height: 1796px;
-  }
+}
   
   .mountain-1 {
     position: absolute;
@@ -45,7 +47,7 @@
     width: 677px;
     height: 604.9px;
     object-fit: cover;
-  }
+}
   
   .mountain-2 {
     position: absolute;
@@ -54,7 +56,8 @@
     width: 677px;
     height: 604.9px;
     object-fit: cover;
-  }
+}
+
   .main-page-hero-background{
     position: absolute;
     top: 2724px;
@@ -62,13 +65,15 @@
     background-color: #fdfbf7;
     width: 1441px;
     height: 579px;
-  }
+}
+
   .main-page-hero-background {
     top: 0;
     left: 0;
     width: 1440px;
     height: 598px;
-  }
+}
+
   .mountain-greens-1 {
     position: absolute;
     top: 206px;
@@ -76,7 +81,7 @@
     width: 1452px;
     height: 991px;
     object-fit: cover;
-  }
+}
   
   .anniversary-invite,
   .anniversary,
@@ -85,23 +90,24 @@
     margin: 0;
     border-bottom: 4px solid transparent;
     transition: border-bottom 500ms ease-in-out;
-  }
+}
   
   .about-us-text {
     color: white;
-  }
+}
   
   .about-text a {
     color: #fff;
-  }
+}
   
   .about-text a:visited {
     color: #fff; 
-  }
+}
   
   .about-us-text:hover {
     border-bottom: 2px solid #fff;
-  }
+}
+
   .about-the-quests,
   .anniversary-container,
   .welcome-to-the {
@@ -115,14 +121,16 @@
     height: 114px;
     z-index: 5;
     cursor: auto;
-  }
+}
+
   .about-the-quests,
   .welcome-to-the {
     top: 191px;
     font-size: 36px;
     width: 470px;
     height: 72px;
-  }
+}
+
   .about-the-quests {
     top: 1244px;
     left: 127px;
@@ -130,7 +138,8 @@
     color: #fff;
     width: 569px;
     height: 135px;
-  }
+}
+
   .about-day-quest-container,
   .about-us-more-container {
     position: absolute;
@@ -143,16 +152,18 @@
     height: 203px;
     cursor: auto;
   
-  }
-  
+}
+
   .about-text {
     color: #fff;
-  }
+}
+
   .about-day-quest-container {
     top: 2797px;
     left: 285px;
     height: 132px;
-  }
+}
+
   .fest-sponsor-1,
   .fest-sponsor-2,
   .fest-sponsor-3 {
@@ -162,19 +173,21 @@
     width: 292px;
     height: 60px;
     object-fit: cover;
-  }
+}
+
   .fest-sponsor-2,
   .fest-sponsor-3 {
     left: 644px;
     width: 153px;
     height: 64px;
-  }
+}
+
   .fest-sponsor-3 {
     top: 3085px;
     left: 835px;
     width: 217px;
     height: 80px;
-  }
+}
   
   .contact-us-container {
     position: absolute;
@@ -187,7 +200,8 @@
     height: 178px;
     cursor: auto;
   
-  }
+}
+
   .ticket-empty {
     position: absolute;
     top: 1341px;
@@ -195,7 +209,7 @@
     width: 819px;
     height: 313px;
     object-fit: cover;
-  }
+}
   
   .ticket-empty-2 {
     position: absolute;
@@ -204,7 +218,8 @@
     width: 819px;
     height: 313px;
     object-fit: cover;
-  }
+}
+
   .day-quest {
     cursor: auto;
     position: absolute;
@@ -217,6 +232,7 @@
     width: 156px;
     height: 36px;
   }
+
   .age-6-main,
   .place,
   .september-14 {
@@ -227,19 +243,22 @@
     width: 72px;
     height: 24px;
     cursor: auto;
-  }
+}
+
   .place,
   .september-14 {
     top: 22px;
     width: 220px;
     height: 18px;
     cursor: auto;
-  }
+}
+
   .september-14 {
     top: 0;
     width: 170px;
     height: 15px;
-  }
+}
+
   .age-6-parent {
     position: absolute;
     top: 1427px;
@@ -249,7 +268,8 @@
     font-size: 13px;
     cursor: auto;
     z-index: 10;
-  }
+}
+
   .anniversary-container1 {
     position: absolute;
     top: 1426px;
@@ -258,8 +278,8 @@
     display: inline-block;
     width: 313px;
     height: 94px;
-  }
-  
+}
+
   .buy-tickets,
   .find-out-more {
     position: absolute;
@@ -268,18 +288,17 @@
     font-weight: 500;
     text-align: center;
     display: inline-block;
-  }
-  
+}
+
   .buy-tickets {
     z-index: 1;
-  }
-  
-  
+}
+   
   .find-out-more {
     left: 0px;
     right: 0px;
     z-index: 5;
-  }
+}
   
   .evening-quest1 {
     position: absolute;
@@ -292,7 +311,8 @@
     width: 215px;
     height: 36px;
     cursor: auto;
-  }
+}
+
   .age-16-parent {
     position: absolute;
     top: 1772px;
@@ -302,7 +322,8 @@
     font-size: 13px;
     cursor: auto;
     z-index: 10;
-  }
+}
+
   .anniversary-container2 {
     cursor: auto;
     position: absolute;
@@ -312,7 +333,8 @@
     display: inline-block;
     width: 313px;
     height: 94px;
-  }
+}
+
   
   /* START OF THE TICKETS CSS  */
   
@@ -331,10 +353,11 @@
     width: 176px;
     height: 38px;
     transition: background-color 0.5s cubic-bezier(0.39, 0.58, 0.57, 1), color 0.3s ease;
-  }
+}
+
   .ticket-button2 {
     left: 531px;
-  }
+}
   
   .ticket2-button1,
   .ticket2-button2 {
@@ -351,31 +374,31 @@
     width: 176px !important;
     height: 38px !important;
     transition: background-color 0.5s cubic-bezier(0.39, 0.58, 0.57, 1), color 0.3s ease;
-  
-  }
+}
   .ticket2-button2 {
     left: 531px;
-  }
+}
+
   .ticket-button1 {
     color: #000; 
-  }
-  
+}
+
   .ticket-button1:hover,
   .ticket2-button2:hover {
     background-color: #3e4244;
     color: #fff; 
-  }
+}
   
   .ticket-button2:hover {
     background-color: #3e4244;
     color: #fff;
     z-index: 2;
-  }
+}
   
   .ticket2-button1:hover {
     background-color: #3e4244;
     color: #fff;
-  }
+}
   
   .ticket-button1 a,
   .ticket-button1 a .buy-tickets,
@@ -387,10 +410,8 @@
   .ticket2-button2 a .find-out-more2{
     color: inherit; 
     text-decoration: none;
-  }
-  
-  
-  
+}
+
   .buy-tickets2,
   .find-out-more2 {
     position: absolute;
@@ -401,16 +422,18 @@
     display: inline-block;
     width: 153px;
     height: 24px;
-  }
+}
+
   .buy-tickets2, a {
     text-decoration: none;
     color: #000;
-  }
+}
   
   .find-out-more2 {
     left: 535px;
     z-index: 5;
-  }
+}
+
   .sparky-dragon,
   .dark-trees-2 {
     position: absolute;
@@ -419,17 +442,19 @@
     width: 541px;
     height: 340px;
     object-fit: cover;
-  }
+}
   
   .dark-trees-2 {
     z-index: 2;
-  }
+}
+
   .sparky-dragon {
     top: 472px;
     left: 619px;
     width: 901px;
     height: 1555px;
-  }
+}
+
   .dark-trees,
   .video-template {
     position: absolute;
@@ -438,11 +463,11 @@
     width: 1113px;
     height: 624px;
     object-fit: cover;
-  }
+}
   
   .video-template {
     z-index: 10;
-  }
+}
   
   .dark-trees {
     top: 2358px;
@@ -451,7 +476,8 @@
     height: 366px;
     object-fit: contain;
     z-index: 4;
-  }
+}
+
   .main-content {
     position: absolute;
     top: 0;
@@ -462,7 +488,8 @@
     overflow: hidden;
     text-align: left;
     font-size: 16px;
-  }
+}
+
   /* THIS IS WHERE THE NAVIGATION CODE STARTS */
   
   nav {
@@ -472,11 +499,11 @@
     background-color: #fdfbf7;
     position: relative;
     cursor: auto;
-  }
+}
   
   .night-nav {
     background-color: #aaa2a2;
-  }
+}
   
   .dragonlogo, .logo-dragon {
     align-items: flex-start;
@@ -486,21 +513,21 @@
     margin-top: 5px;
     margin-left: 20px;
     z-index: 10;
-  }
+}
   
   .dragon-logo, .rotate {
     animation: rotation 8s infinite linear;
     transform-origin: center;
   
-  }
+}
   
   .night {
     top: 2600px;
-  }
+}
   
   ul {
     margin-right: 5%;
-  }
+}
   
   ul li {
     list-style: none;
@@ -509,21 +536,21 @@
     padding: 15px;
     transition: background-color 0.5s cubic-bezier(0.39, 0.58, 0.57, 1), color 0.3s ease;
     border-radius: 30px;
-  }
+}
   
   ul li a{
     text-decoration: none;
     color: #000;
-  }
+}
   
   ul li:hover {
     background-color: #3e4244;
     color: #fff;
-  }
+}
   
   ul li a:hover {
     color: #fff;
-  }
+}
   
   
   
