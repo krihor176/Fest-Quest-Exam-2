@@ -525,3 +525,128 @@
     color: #fff;
   }
   
+  
+  
+  
+  .main-page {
+    width: 100%;
+    position: relative;
+    height: 3303px;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+  }
+  
+  .hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    border: none;
+    background: none;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #333;
+    position: relative;
+    width: 35px;
+    height: 25px;
+  }
+  
+  .hamburger .line {
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background: #333;
+    transition: all 0.3s ease;
+  }
+  
+  .hamburger .line:nth-child(1) {
+    top: 0;
+  }
+  
+  .hamburger .line:nth-child(2) {
+    top: 10px;
+  }
+  
+  .hamburger .line:nth-child(3) {
+    top: 20px;
+  }
+  
+  .hamburger:hover .line {
+    background: #666;
+  }
+  
+  .hamburger.active .line:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+  }
+  
+  .hamburger.active .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger.active .line:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+   
+  
+  .modal {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    transition: transform 0.5s ease;
+    transform: translateX(-100%);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .centered-content a {
+    position: relative;
+    margin: 10px 0; 
+    transition: color 0.3s ease;
+  }
+  
+  .centered-content a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: currentColor;
+    transition: width 0.3s ease;
+  }
+  
+  .centered-content a:hover {
+    color: #888;
+  }
+  
+  .centered-content a:hover::after {
+    width: 100%;
+  }
+  
+  
