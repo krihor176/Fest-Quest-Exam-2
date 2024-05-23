@@ -140,68 +140,7 @@
     height: 135px;
 }
 
-  .about-day-quest-container,
-  .about-us-more-container {
-    position: absolute;
-    top: 2795px;
-    left: 639px;
-    font-size: 20px;
-    text-align: center;
-    display: inline-block;
-    width: 175px;
-    height: 203px;
-    cursor: auto;
   
-}
-
-  .about-text {
-    color: #fff;
-}
-
-  .about-day-quest-container {
-    top: 2797px;
-    left: 285px;
-    height: 132px;
-}
-
-  .fest-sponsor-1,
-  .fest-sponsor-2,
-  .fest-sponsor-3 {
-    position: absolute;
-    top: 3101px;
-    left: 314px;
-    width: 292px;
-    height: 60px;
-    object-fit: cover;
-}
-
-  .fest-sponsor-2,
-  .fest-sponsor-3 {
-    left: 644px;
-    width: 153px;
-    height: 64px;
-}
-
-  .fest-sponsor-3 {
-    top: 3085px;
-    left: 835px;
-    width: 217px;
-    height: 80px;
-}
-  
-  .contact-us-container {
-    position: absolute;
-    top: 2795px;
-    left: 993px;
-    font-size: 20px;
-    text-align: center;
-    display: inline-block;
-    width: 273px;
-    height: 178px;
-    cursor: auto;
-  
-}
-
   .ticket-empty {
     position: absolute;
     top: 1341px;
@@ -675,5 +614,69 @@
   .centered-content a:hover::after {
     width: 100%;
   }
+
+/*   THIS IS WHERE FOOTER CODE STARTS */
+  .about-day-quest-container,
+  .about-us-more-container {
+    position: absolute;
+    top: 2795px;
+    left: 639px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 175px;
+    height: 203px;
+    cursor: auto;
+  
+}
+
+  .about-text {
+    color: #fff;
+}
+
+  .about-day-quest-container {
+    top: 2797px;
+    left: 285px;
+    height: 132px;
+}
+
+  .fest-sponsor-1,
+  .fest-sponsor-2,
+  .fest-sponsor-3 {
+    position: absolute;
+    top: 3101px;
+    left: 314px;
+    width: 292px;
+    height: 60px;
+    object-fit: cover;
+}
+
+  .fest-sponsor-2,
+  .fest-sponsor-3 {
+    left: 644px;
+    width: 153px;
+    height: 64px;
+}
+
+  .fest-sponsor-3 {
+    top: 3085px;
+    left: 835px;
+    width: 217px;
+    height: 80px;
+}
+  
+  .contact-us-container {
+    position: absolute;
+    top: 2795px;
+    left: 993px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 273px;
+    height: 178px;
+    cursor: auto;
+  
+}
+
   
   
