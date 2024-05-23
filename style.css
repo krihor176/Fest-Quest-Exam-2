@@ -403,10 +403,12 @@
     width: 1113px;
     height: 624px;
     object-fit: cover;
+    cursor: auto;
 }
   
   .video-template {
     z-index: 10;
+    cursor: auto;
 }
   
   .dark-trees {
