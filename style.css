@@ -1245,6 +1245,75 @@
   
   
     }
+
+    /* DAY QUEST STYLE */
+
+.shape {
+    width: 100%;
+    height: 419px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fdfbf7;
+  }
+  
+  .night-shape {
+    background-color: #aaa2a2;
+  }
+  .mountain-day-image {
+    height: 1287px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .wizard-image {
+    position: absolute;
+    top: 0;
+    left: 11px;
+    width: 137px;
+    height: 103px;
+    object-fit: contain;
+    z-index: 7;
+  }
+  .wizard-image {
+    top: 87px;
+    left: 0;
+    width: 529px;
+    height: 1143px;
+    object-fit: cover;
+    z-index: 8;
+  }
+  .wizard,
+  .mountain-day {
+    margin: 0 !important;
+    position: absolute;
+    left: 0;
+  }
+  .wizard {
+    height: 1230px;
+    width: 429px;
+    bottom: -53px;
+  }
+  .mountain-day {
+    background-image: url(./img/mountain-day.png);
+    width: 100%;
+    top: -105px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .about {
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+  }
   
   
   
