@@ -1315,5 +1315,581 @@
     flex-shrink: 0;
   }
   
+  .wizard-text {
+    height: 251px;
+    width: 677px;
+    position: relative;
+    border-radius: 50px 50px 50px 0;
+    background-color: #5d604f;
+    max-width: 100%;
+    display: flex;
+  }
   
+  .night-wizard-text-mobile {
+    background-color: #0E0E17;
+  }
+  
+  .night-rectangle-mobile {
+    background-color: #0E0E17 !important;
+  
+  }
+  
+  .are-ye-ready,
+  .aye,
+  .then-buckle-up {
+    margin: 0;
+    margin-left: -25px;
+    font-family: 'IM Fell English SC';
+  }
+  .are-ye-ready-container {
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    width: 70%;
+    z-index: 8;
+    color: white;
+    top: 15px;
+    left: 30px;
+  }
+  .small-flying-dragon-image,
+  .rectangle-rounded {
+    flex-shrink: 0;
+  }
+  .rectangle-rounded {
+    width: 677px;
+    border-radius: 50px 50px 50px 0;
+    background-color: #5d604f;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 45px 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+    z-index: 7;
+  }
+  .small-flying-dragon-image {
+    left: 550px;
+    margin-top: -300px;
+    width: 5vw;
+    opacity: 0.5;
+    height: auto;
+    position: fixed;
+    object-fit: contain;
+    z-index: 0;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    will-change: transform, opacity;
+  }
+  .small-flying-dragon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 17px 0 0;
+  }
+  .dialogue {
+    width: 877.1px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .info,
+  .inner-info,
+  .dialogue {
+    display: flex;
+    max-width: 100%;
+  }
+  .inner-info {
+    width: 1199.1px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 141px;
+  }
+  .info {
+    width: 1384.9px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Karla';
+  }
+  .about-details-child {
+    align-self: stretch;
+    height: 1309px;
+    position: relative;
+    background-color: #5d604f;
+    display: none;
+    mix-blend-mode: normal;
+  }
+  .about-the-quest {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+    z-index: 3;
+  }
+  .about-header {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px;
+    text-align: left;
+  }
+  .september-14- {
+    align-self: stretch;
+    height: 15px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 3;
+  }
+  .esbjerg-library-gate {
+    line-height: 18px;
+    white-space: nowrap;
+    top: 30px;  
+  }
+  .age-6,
+  .esbjerg-library-gate {
+    align-self: center;
+    position: relative;
+    z-index: 3;
+  }
+  
+  .age-6 {
+    margin-top: 48px;
+  }
+  .event,
+  .event-details {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .event-details {
+    width: 338px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  .event {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 20px 0 21px;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  .rock {
+    height: 294px;
+    width: 205px;
+    position: relative;
+    object-fit: contain;
+    z-index: 3;
+  }
+  .description-text,
+  .description-text-under {
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  .description-text-under {
+    margin-right: 220px 
+  }
+  
+  .description-text-under-night {
+    font-weight: 600;
+    margin-right: 0px;
+    margin-left: 25px;
+  }
+  .the-four-men-container {
+    align-self: stretch;
+    position: relative;
+    font-weight: 600;
+    z-index: 3;
+  }
+  
+  .buy-a-ticket {
+    width: 205px;
+    position: relative;
+    font-size: 28px;
+    font-family: 'Karla';
+    color: #000;
+    text-align: left;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 4;
+  }
+  
+  .buy-a-ticket:hover {
+    color: #fff !important;
+  }
+  
+  .buy-a-ticket-text {
+    margin-left: -20px;
+  }
+  
+  .button-group:hover {
+    background-color: #3e4244;
+    color: #fff !important;
+  }
+  .button-parent,
+  .button-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .button-group {
+    cursor: pointer;
+    border: 0;
+    padding: 13px 20px 12.2px 46px;
+    background-color: #fff;
+    width: 485.1px;
+    border-radius: 50px;
+    z-index: 1;
+    transition: background-color 0.5s cubic-bezier(0.39, 0.58, 0.57, 1), color 0.3s ease;
+  
+  }
+  .button-parent {
+    align-self: stretch;
+    padding: 0 20px;
+  }
+  .description-box {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 62px;
+    max-width: 100%;
+  }
+  .meet-our-characters,
+  .welcome-to-text {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: 'IM Fell English SC';
+    z-index: 3;
+    left: 30px;
+  }
+  .meet-our-characters {
+    width: 343px;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+    left: 15px;
+    font-family: 'IM Fell English SC';
+  }
+  .meet-our-characters-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 21px 0 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .welcome-to-fanstasy-quest {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 23px;
+    max-width: 100%;
+  }
+  .description-parent,
+  .big-welcome {
+    display: flex;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .big-welcome {
+    width: 694px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 3px;
+    text-align: left;
+    font-size: 32px;
+  }
+  .description-parent {
+    width: 752px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 29px 0 0;
+    gap: 116.8px;
+  }
+  .fairy-img,
+  .mushroom-img {
+    position: absolute;
+    top: 85px;
+    left: 0;
+    width: 199px;
+    height: 301px;
+    object-fit: cover;
+    z-index: 3;
+  }
+  .fairy-img {
+    top: 0;
+    left: 33px;
+    width: 176px;
+    height: 251px;
+    object-fit: contain;
+    z-index: 4;
+  }
+  .shape-images {
+    align-self: stretch;
+    height: 386px;
+    position: relative;
+  }
+  .fairy-and-mushroom {
+    height: 448px;
+    width: 209px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .story,
+  .story-details {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .story-details {
+    width: 1332px;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .story {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 38px;
+    box-sizing: border-box;
+    font-size: 24px;
+  }
+  .pushed-2-icon {
+    height: 327.4px;
+    width: 384px;
+    position: relative;
+    object-fit: cover;
+    display: none;
+    max-width: 100%;
+  }
+  .wizard-img{
+    width: 158.1px;
+    height: 223.7px;
+    position: relative;
+    object-fit: contain;
+    z-index: 1;
+    left: -220px;
+  }
+  .old-wizard-group {
+    width: 384px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 48px 20px 48.2px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    max-width: 100%;
+    z-index: 3;
+  }
+  .gnist-img,
+  .group-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .gnist-img {
+    top: 63.7px;
+    left: 112.9px;
+    width: 158.1px;
+    height: 223.7px;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .dragon-group {
+    height: 327.4px;
+    width: 384px;
+    position: relative;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 4;
+    margin-left: -36px;
+  }
+  .frame-child1,
+  .gygaz-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .gygaz-img {
+    top: 66px;
+    left: 123px;
+    width: 137px;
+    height: 195px;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .book-div {
+    align-self: stretch;
+    height: 327.4px;
+    position: relative;
+    flex-shrink: 0;
+    z-index: 5;
+  }
+  .wizard-with-book-group {
+    width: 392px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 8px 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin-left: -36px;
+  }
+  .mermaid-img,
+  .small-ticket-empty-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .small-ticket-empty-img-2 {
+    position: sticky;
+    margin-top: -48px;
+    left: 0;
+    object-fit: cover;
+    width: 384px;
+    height: 327.4px;
+  }
+  
+  .small-ticket-empty-img-3 {
+    position: absolute;
+    top: 0;
+    left: 390px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .portal-img {
+    top: 80px;
+    margin-left: 480px;
+    width: 187px;
+    height: 195px;
+    object-fit: contain;
+    z-index: 1;
+    position: sticky;
+  }
+  
+  .mermaid-img {
+    top: 32.1px;
+    left: 90.6px;
+    width: 202.8px;
+    height: 287px;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .mermaid-group {
+    height: 327.4px;
+    width: 384px;
+    position: relative;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 6;
+    margin-left: -36px;
+  }
+  
+  .frame-parent2 {
+    height: 327.4px;
+    width: 384px;
+    position: relative;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 6;
+    margin-left: 246px;
+  }
+  
+  
+  
+  .all-images-group {
+    width: 1441px;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 5px 5.6px 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    cursor: grab;
+  }
+  
+  .all-images-group img {
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+  }
+  
+  .all-images-group img.loaded {
+    opacity: 1;
+  }
+  
+  .all-images-group:active {
+    cursor: grabbing;
+  }
+  
+  .all-images-group::-webkit-scrollbar {
+    width: inherit; 
+  }
+  
+  .all-images-group::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+  }
+  
+  .all-images-group::-webkit-scrollbar-thumb {
+    background: #373636; 
+    border-radius: 10px;
+  }
+  
+  .all-images-group::-webkit-scrollbar-thumb:hover {
+    background: #232222; 
+  }
   
