@@ -2055,8 +2055,78 @@
     .dialogue {
       flex-wrap: wrap;
     }
-  
   }
+    @media screen and (max-width: 915px) {
+        .mountain-night-image { 
+            height: 1130px;
+        }
+
+        .malice-big-image {
+            width: 826px;
+        } 
+
+        .shape {
+            height: 435px;
+        }
+
+        .about-the-quest {
+            left: -25px;
+        }
+
+        .description-text {
+            margin-left: 0;
+        }
+
+        .button-group {
+            margin-left: 0;
+        }
+
+        .welcome-to-fanstasy-quest {
+            margin-left: 80px;
+        }
+
+        .meet-our-characters {
+            left: 30px;
+        }
+
+        .story {
+            height: 680px;
+        }
+
+        .about-day-quest-container {
+            left: 150px;
+        }
+
+        .about-us-more-container {
+            left: 400px;
+        }
+
+        .contact-us-container {
+            left: 600px;
+        }
+
+        .fest-sponsor-1 {
+            left: 80px;
+            top: 2850px;
+        }
+
+        .fest-sponsor-2 {
+            left: 420px;
+            top: 2850px;
+}
+        
+
+        .fest-sponsor-3 {
+            left: 635px;
+            top: 2835px;
+        }
+
+        .footer-night {
+            height: 450px !important;
+        }
+  
+}
+
   @media screen and (max-width: 750px) {
     .are-ye-ready-container {
       font-size: 24px;
