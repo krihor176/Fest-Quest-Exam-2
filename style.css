@@ -2056,3 +2056,44 @@
   display: flex;
   justify-content: flex-start;
 }
+
+.about1 {
+    margin-top: 180px;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Karla';
+  }
+  
+  .night-about-section {
+    margin-top: 72px;
+  }
+  
+  .night-about-deails {
+    background-color: #0E0E17;
+  }
+  
+  .morning-quest,
+  .root {
+    position: relative;
+  }
+  
+  .footer-day {
+    height: 550px !important;
+    background-color: #373636;
+  }
+  
+  .day {
+    top: 2650px;
+  }
+  
+  .day-sponsor,
+  .night-sponsor {
+    top: 2900px;
+  }
