@@ -2127,9 +2127,35 @@
   
 }
 
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 780px) {
+    .night-nav {
+        width: 98% !important;
+    }
+
+    .shape {
+        width: 50%;
+    }
+
+    .mountain-day {
+        width: 50%;
+    }
+
+    .malice-big-image { 
+        width: 726px;
+        margin-top: -180px;
+    }
+    
     .are-ye-ready-container {
       font-size: 24px;
+    }
+
+    .rectangle-rounded {
+        width: 377px;
+        margin-left: 350px;
+    }
+
+    .are-ye-ready-container {
+        font-size: 20px;
     }
   
     .inner-info {
@@ -2144,6 +2170,11 @@
     .meet-our-characters,
     .welcome-to-text {
       font-size: 26px;
+      left: 0px;
+    }
+
+    .description-text-under-night {
+        margin-left: 60px;
     }
   
     .about-details {
@@ -2152,12 +2183,231 @@
       padding-bottom: 35px;
       box-sizing: border-box;
     }
-  
-  
+
     .morning-quest {
       gap: 313px;
     }
+
+    .about-day-quest-container {
+      top: 2200px;
+      left: 100px;
+    }
+
+    .about-us-more-container {
+      top: 2200px;
+      left: 320px;
+    }
+
+    .contact-us-container {
+      top: 2200px;
+      left: 500px;
+    }
+
+    .fest-sponsor-1 {
+      left: 60px;
+      top: 2400px;
+    }
+
+    .fest-sponsor-2 {
+      left: 350px;
+      top: 2400px;
+    }
+
+    .fest-sponsor-3 {
+      left: 535px;
+      top: 2390px;
+    }
   }
+
+  @media screen and (max-width: 768px) {
+    .night-nav {
+      width: 100% !important;
+    }
+
+    .mountain-day {
+        width: 100%;
+    }
+
+    .shape {
+        width: 100%;
+    }
+
+
+
+    .night-about-section {
+        width: 100%;
+    }
+
+
+
+
+    .about-day-quest-container {
+        left: 100px;
+    }
+
+    .about-us-more-container {
+        left: 320px;
+    }
+
+    .contact-us-container {
+        left: 500px;
+    }
+
+    .fest-sponsor-1 {
+        left: 60px;
+        top: 2400px;
+    }
+
+    .fest-sponsor-2 {
+        left: 350px;
+        top: 2400px;
+    }
+
+    
+
+  }
+
+  @media screen and (max-width: 750px) {
+    .malice-big-image {
+        width: 526px;
+        margin-top: -180px;
+    }
+
+    .rectangle-rounded {
+        margin-left: 250px;
+    }
+
+    .about-day-quest-container {
+        left: 20px;
+        font-size: 14px;
+    }
+
+    .about-us-more-container {
+        left: 250px;
+        font-size: 14px;
+    }
+
+    .contact-us-container {
+        left: 425px;
+        font-size: 14px;
+    }
+
+    .fest-sponsor-1 {
+        left: 60px;
+        top: 2400px;
+        width: 150px;
+    }
+
+    .fest-sponsor-2 {
+        left: 290px;
+        top: 2400px;
+        width: 150px;
+    }
+
+    .fest-sponsor-3 {
+        left: 475px;
+        top: 2390px;
+        width: 150px;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .malice-big-image {
+        width: 426px;
+        margin-top: -180px;
+    }
+
+    .rectangle-rounded {
+        margin-left: 200px;
+    }
+
+    .about-day-quest-container {
+        left: 20px;
+        font-size: 14px;
+    }
+
+    .about-us-more-container {
+        left: 250px;
+        font-size: 14px;
+    }
+
+    .contact-us-container {
+        left: 425px;
+        font-size: 14px;
+    }
+
+    .fest-sponsor-1 {
+        left: 60px;
+        top: 2400px;
+        width: 150px;
+    }
+
+    .fest-sponsor-2 {
+        left: 290px;
+        top: 2400px;
+        width: 150px;
+    }
+
+    .fest-sponsor-3 {
+        left: 475px;
+        top: 2390px;
+        width: 150px;
+    }
+  }
+    @media screen and (max-width: 599px) {
+        .malice-big-image {
+            width: 426px;
+            margin-top: -180px;
+        }
+    
+        .rectangle-rounded {
+            margin-left: 100px;
+        }
+
+        .are-ye-ready-container {
+            font-size: 17px;
+        }
+
+        .button-group {
+            margin-left: 25px;
+        }
+
+        .about-day-quest-container {
+            left: 0px;
+            font-size: 14px;
+        }
+    
+        .about-us-more-container {
+            left: 150px;
+            font-size: 14px;
+        }
+    
+        .contact-us-container {
+            left: 322px;
+            font-size: 14px;
+            width: 150px;
+        }
+    
+        .fest-sponsor-1 {
+            left: 60px;
+            top: 2400px;
+            width: 100px;
+        }
+    
+        .fest-sponsor-2 {
+            left: 190px;
+            top: 2400px;
+            width: 100px;
+        }
+    
+        .fest-sponsor-3 {
+            left: 320px;
+            top: 2390px;
+            width: 100px;
+        }
+  }
+
+
   @media screen and (max-width: 499px) {
     .are-ye-ready-container {
       font-size: 12px;
@@ -2377,121 +2627,4 @@
         top: 0;
         left: 0;
       }
-  }
-  
-  @media screen and (min-width: 500px) and (max-width: 768px) {
-  
-    .main-page {
-      width: 134%;
-    }
-  
-    nav {
-      width: 142%;
-    }
-  
-    .about-us-more-container,
-    .about-day-quest-container,
-    .contact-us-container {
-      top: 2800px !important; 
-    }
-  
-    .main-content {
-      width: 106%;
-    }
-  
-    .morning-quest {
-      max-width: none;
-      width: 134%;
-    }
-  
-    .footer-day {
-      width: 134%;
-    }
-  
-    .description-text {
-      margin-left: 70px;
-    }
-  
-    .description-text-under {
-      margin-right: 175px;
-    }
-  
-    .button-group {
-      margin-left: 80px;
-    }
-  
-    .welcome-to-text {
-      left: -50px;
-    }
-  
-    .meet-our-characters {
-      left: -5px;
-    }
-  
-    .all-images-group {
-      margin-top: -350px;
-    }
-  
-    .day {
-      left: 150px;
-    }
-  
-    .main-page-day {
-      width: 153%;
-    }
-  
-    .day-nav {
-      width: 205%;
-    }
-  
-    
-    .mobile-day-2 {
-      margin-left: 330px;
-    }
-  
-    .mobile-day-3 {
-      margin-left: 600px;
-    }
-  
-    .night-nav {
-      width: 134%;
-    }
-  
-    .night-about-section {
-      margin-top: 50px;
-    }
-  
-    .footer-night {
-      width: 134%;
-    }
-  
-    .about-day-quest-container {
-      top: 2700px;
-      font-size: 20px;
-      left: 150px;
-    }
-  
-    .about-us-more-container {
-      left: 450px;
-      font-size: 20px;
-      top: 2700px;
-    }
-  
-    .contact-us-container {
-      font-size: 20px;
-      top: 2700px;
-      left: 700px;
-    }
-  
-    .night-sponsor {
-      top: 3000px;
-    }
-  
-    .night-sponsor-2 {
-      left: 500px;
-    }
-  
-    .night-sponsor-3 {
-      left: 750px;
-    }
   }
