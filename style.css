@@ -1892,4 +1892,66 @@
   .all-images-group::-webkit-scrollbar-thumb:hover {
     background: #232222; 
   }
+  .rectangle-div2 {
+    width: 456px;
+    flex: 1;
+    position: relative;
+    background-color: rgba(148, 137, 137, 0.5);
+    max-width: 100%;
+    z-index: 3;
+  }
+  .frame-child3 {
+    align-self: stretch;
+    height: 24px;
+    position: relative;
+    background-color: #aaa2a2;
+    z-index: 3;
+  }
+  .about-details {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
   
+  .about-details,
+  .about-details-inner {
+    box-sizing: border-box;
+  }
+  .about-details-inner {
+    height: 54px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 20px 0 49px;
+  }
+  .about-details {
+    background-color: #5d604f;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 46px 0 83px;
+    gap: 35px;
+    z-index: 2;
+  }
+  .quest-types-container-child {
+    width: 1441px;
+    height: 579px;
+    position: relative;
+    background-color: #373636;
+    display: none;
+    max-width: 100%;
+  }
+  .about2 {
+    align-self: stretch;
+    position: relative;
+    z-index: 1;
+  }
+  .blank-line,
+  .day-quest2 {
+    margin: 0;
+  }
+  .day-quest1 {
+    align-self: stretch;
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+  }
