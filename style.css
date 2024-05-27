@@ -1177,16 +1177,17 @@
       }
   
       .fest-sponsor-1 {
-        top: 2800px;
-        width: 100px;
-        margin-left: 50px;
+        top: 2600px !important;
+        width: 80px !important;
+        height: 80px !important;
+        margin-left: 20px !important;
       }
   
       .fest-sponsor-2 {
-        top: 2815px;
-        left: 200px;
-        width: 100px;
-        height: 40px;
+        top: 2600px !important;
+        left: 200px !important; 
+        width: 80px !important;
+        height: 80px !important;
       }
   
       .fest-sponsor-3 {
@@ -2057,6 +2058,13 @@
     }
   }
     @media screen and (max-width: 915px) {
+        .video-template {
+            width: 800px;
+            height: 500px;
+            margin-left: -90px;
+            top: 2126px;
+        }
+
         .mountain-night-image { 
             height: 1130px;
         }
@@ -2129,15 +2137,15 @@
 
   @media screen and (max-width: 780px) {
     .night-nav {
-        width: 98% !important;
+        width: 100%;
     }
 
     .shape {
-        width: 50%;
+        width: 100%;
     }
 
     .mountain-day {
-        width: 50%;
+        width: 100%;
     }
 
     .malice-big-image { 
@@ -2537,28 +2545,28 @@
       }
   
       .mobile-day-1 {
-        top: 2250px;
+        top: 2320px;
         left: 130px;
       }      
       
       .mobile-day-2 {
-        top: 2425px;
+        top: 2450px !important;
         left: 125px;
     }
   
       .mobile-day-3 {
-        top: 2600px;
+        top: 2600px !important;
         left: 78px;
       }
   
       .day-sponsor {
-        top: 2800px;
+        top: 2700px !important;
         left: 20px;
       }
   
       .night-sponsor {
         top: 2650px;
-        left: 0px;
+        left: 60px;
       }
   
       .night-sponsor-2 {
