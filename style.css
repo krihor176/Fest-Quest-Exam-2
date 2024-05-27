@@ -780,9 +780,10 @@
       }
   
     .video-template {
-      top: 2326px;
-      width: 70%;
-      height: 300px;
+      top: 2326px !important;
+      width: 70% !important;
+      height: 300px !important;
+      left: 200px;
     }
   
     .dark-trees-2 {
@@ -791,6 +792,14 @@
   }
   
   @media screen and (max-width: 800px) {
+    .main-nav {
+        width: 109%;
+    }
+
+    .main-content {
+        width: 109%;
+    }
+
     .ticket-empty,
     .ticket-empty-2 {
       width: 580px;
@@ -859,16 +868,19 @@
     .about-day-quest-container {
       font-size: 10px;
       left: 0;
+      top: 2750px !important;
     }
   
     .contact-us-container {
       font-size: 10px;
       left: 280px;
+      top: 2750px !important;
     }
   
     .about-us-more-container {
       font-size: 10px;
       left: 170px;
+      top: 2750px !important;
     }
   
     .about-us-text:hover {
@@ -934,18 +946,21 @@
     
     }
   
-  .fest-sponsor-1 {
+  .about-sponsor-1 {
       left: 20px;
       width: 150px;
+      top: 2950px !important;
     }
   
-  .fest-sponsor-2 {
+  .about-sponsor-2 {
       left: 180px;
+      top: 2950px !important;
     }
   
-  .fest-sponsor-3 {
+  .about-sponsor-3 {
       left: 335px;
       width: 150px;
+      top: 2950px !important;
     }
   
   .about-the-quests {
@@ -954,10 +969,10 @@
     }
   
   .video-template {
-      width: 60%;
-      height: 200px;
-      top: 2420px;
-      left: 120px;
+    width: 60% !important;
+    height: 200px !important;
+    top: 2400px !important;
+    left: 200px !important;
     }
   
   }
@@ -1147,10 +1162,10 @@
       }
   
       .video-template {
-        top: 1900px;
-        width: 300px;
-        height: 180px;
-        left: 65px;
+        top: 1900px !important;
+        width: 300px !important;
+        height: 180px !important;
+        margin-left: -25px !important;
         z-index: 5;
       }
     
@@ -2320,6 +2335,31 @@
   }
 
   @media screen and (max-width: 650px) {
+    .main-footer-1 {
+        top: 2750px;
+    }
+
+    .main-footer-2 {
+        top: 2750px;
+
+    }
+
+    .main-footer-3 {
+        top: 2750px;
+    }
+
+    .about-sponsor-1 {
+        top: 2900px !important;
+    }
+
+    .about-sponsor-2 {
+        top: 2900px !important;
+    }
+
+    .about-sponsor-3 {
+        top: 2900px !important;
+    }
+
     .malice-big-image {
         width: 426px;
         margin-top: -180px;
@@ -2454,7 +2494,7 @@
     }
     .meet-our-characters {
       font-size: 19px;
-      margin-left: 150px;
+      margin-left: 185px;
     }
   
   
@@ -2465,7 +2505,7 @@
     .wizard-image {
       width: 276px;
       height: 636px;
-      top: 600px;
+      top: 520px;
     }
   
       .rectangle-rounded {
@@ -2513,7 +2553,7 @@
   
       .welcome-to-text {
         font-size: 19px;
-        margin-left: 55px;
+        margin-left: 85px;
       }
   
       .new-line-welcome-text {
@@ -2533,7 +2573,7 @@
       }
   
       .all-images-group {
-        margin-top: 200px;
+        margin-top: 40px;
       }
   
       .footer-day {
@@ -2545,7 +2585,7 @@
       }
   
       .mobile-day-1 {
-        top: 2320px;
+        top: 2150px;
         left: 130px;
       }      
       
@@ -2599,7 +2639,7 @@
         width: 450px;
         height: 700px;
         object-fit: cover;
-        margin-top: 120px;
+        margin-top: 100px;
       }
   
       .night-rectangle-mobile {
