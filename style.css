@@ -1190,10 +1190,10 @@
       }
   
       .fest-sponsor-3 {
-        top: 2815px;
-        left: 310px;
-        width: 100px;
-        height: 30px;
+        left: 300px !important;
+        top: 2600px !important;
+        width: 80px !important;
+        height: 80px !important;
       }
   
      
@@ -2446,7 +2446,7 @@
     }
     .meet-our-characters {
       font-size: 19px;
-      margin-left: -50px;
+      margin-left: 150px;
     }
   
   
@@ -2505,7 +2505,7 @@
   
       .welcome-to-text {
         font-size: 19px;
-        margin-left: 30px;
+        margin-left: 55px;
       }
   
       .new-line-welcome-text {
@@ -2517,7 +2517,6 @@
         width: 172px;
         height: 38px;
         top: 40px;
-        left: -130px;
       }
   
       .buy-a-ticket-text {
@@ -2526,7 +2525,7 @@
       }
   
       .all-images-group {
-        margin-top: -480px;
+        margin-top: 200px;
       }
   
       .footer-day {
@@ -2558,17 +2557,19 @@
       }
   
       .night-sponsor {
-        top: 2800px;
-        left: 20px;
+        top: 2650px;
+        left: 0px;
       }
   
       .night-sponsor-2 {
-        top: 2810px;
-        left: 200px;
+        top: 2655px;
+        left: 180px;
+        width: 80px;
+    
       }
   
       .night-sponsor-3 {
-        top: 2810px;
+        top: 2640px;
         left: 310px;
       }
   
@@ -2605,7 +2606,7 @@
       }
   
       .description-text-under-night {
-        margin-left: 40px;
+        width: 180px;
       }
   
       .new-line-welcome-text-night {
@@ -2627,4 +2628,18 @@
         top: 0;
         left: 0;
       }
+
+      .about-day-quest-container {
+        left: 130px;
+    }
+
+    .about-us-more-container {
+        left: 130px;
+        top: 2350px;
+    }
+
+    .contact-us-container {
+        left: 140px;
+        top: 2500px;
+    }
   }
