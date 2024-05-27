@@ -655,6 +655,20 @@
   }
   
   @media screen and (max-width: 1189px) {
+    .main-content,
+    .main-nav {
+        width: 111%;
+    }
+
+    .video-template {
+      width: 900px;
+      height: 550px;
+      left: 90px;
+      top: 2077px;
+    } 
+
+
+
     .dragonlogo, img {
       width: 10vw;
       height: calc(18.48vw / 1.732);
@@ -793,11 +807,23 @@
   
   @media screen and (max-width: 800px) {
     .main-nav {
-        width: 109%;
+        width: 112%;
     }
 
     .main-content {
-        width: 109%;
+        width: 112%;
+    }
+
+    .about-sponsor-1 {
+        top: 3000px !important;
+    }
+
+    .about-sponsor-2 {
+        top: 3000px !important;
+    }
+
+    .about-sponsor-3 {
+        top: 3000px !important;
     }
 
     .ticket-empty,
@@ -999,7 +1025,7 @@
   
     .main-page,
     .main-content {
-      height: 2900px;
+      height: 3000px;
     } 
   
     .welcome-to-the {
@@ -1151,7 +1177,7 @@
       }
   
       .dark-trees {
-          top: 1850px;
+          top: 1870px;
           width: 100%;
       }
   
@@ -1165,7 +1191,7 @@
         top: 1900px !important;
         width: 300px !important;
         height: 180px !important;
-        margin-left: -25px !important;
+        margin-left: -150px !important;
         z-index: 5;
       }
     
@@ -1173,39 +1199,43 @@
         display: none;
       }
   
-      .about-day-quest-container {
-        top: 2200px;
-        left: 130px;
-        font-size: 20px;
+      .main-footer-1 {
+        top: 2200px !important;
+        left: 140px !important;
+        font-size: 20px !important;
       }
   
-      .about-us-more-container {
-        top: 2400px;
-        left: 125px;
-        font-size: 20px;
+      .main-footer-2 {
+        top: 2400px !important;
+        left: 140px !important;
+        font-size: 20px !important;
       }
   
-      .contact-us-container {
-        top: 2600px;
-        left: 78px;
-        font-size: 20px;
+      .main-footer-3 {
+        top: 2600px !important;
+        left: 140px !important;
+        font-size: 20px !important;
+      }
+
+      .mail {
+        margin-left: -40px;
       }
   
-      .fest-sponsor-1 {
+      .about-sponsor-1 {
         top: 2600px !important;
         width: 80px !important;
         height: 80px !important;
         margin-left: 20px !important;
       }
   
-      .fest-sponsor-2 {
+      .about-sponsor-2 {
         top: 2600px !important;
         left: 200px !important; 
         width: 80px !important;
         height: 80px !important;
       }
   
-      .fest-sponsor-3 {
+      .about-sponsor-3 {
         left: 300px !important;
         top: 2600px !important;
         width: 80px !important;
@@ -2073,6 +2103,26 @@
     }
   }
     @media screen and (max-width: 915px) {
+        .main-page {
+            width: 109%;
+        }
+
+        .main-nav {
+            width: 109%;
+        }
+
+        .about-sponsor-1 {
+            top: 3000px !important;
+        }
+
+        .about-sponsor-2 {
+            top: 3000px !important;
+        }
+
+        .about-sponsor-3 {
+            top: 3000px !important;
+        }
+
         .video-template {
             width: 800px;
             height: 500px;
@@ -2240,6 +2290,33 @@
       left: 535px;
       top: 2390px;
     }
+
+    .main-footer-1 {
+        top: 2750px;
+    }
+
+    .main-footer-2 {
+        top: 2750px;
+    }
+
+    .main-footer-3 {
+        top: 2750px;
+    }
+
+    .about-sponsor-1 {
+      left: 60px;
+      top: 2900px !important;
+    }
+
+    .about-sponsor-2 {
+      left: 350px;
+      top: 2900px !important;
+    }
+
+    .about-sponsor-3 {
+      left: 535px;
+      top: 2890px;
+    }
   }
 
   @media screen and (max-width: 768px) {
@@ -2332,6 +2409,38 @@
         top: 2390px;
         width: 150px;
     }
+
+    .about-sponsor-1 {
+        left: 60px;
+        top: 2900px;
+        width: 150px;
+    }
+
+    .about-sponsor-2 {
+        left: 290px;
+        top: 2900px;
+        width: 150px;
+    }
+
+    .about-sponsor-3 {
+        left: 475px;
+        top: 2890px;
+        width: 150px;
+    }
+
+    .main-footer-1 {
+        top: 2750px;
+    }
+
+    .main-footer-2 {
+        top: 2750px;
+    }
+
+    .main-footer-3 {
+        top: 2750px;
+    }
+
+
   }
 
   @media screen and (max-width: 650px) {
