@@ -681,5 +681,17 @@
   
 }
 
+
+/* THIS IS WHERE THE MEDIA QUERIES START */
+/* FOR THE LOGO IN NAVBAR TO ROTATE */
+
+@keyframes rotation {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(1deg);
+    }
+  }
   
   
