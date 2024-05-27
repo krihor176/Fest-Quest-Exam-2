@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
     observer.observe(video);
   });
 
-
 /*HAMBURGER MENU */
 var modal = document.getElementById("modal");
 var btn = document.getElementById("hamburger");
@@ -45,8 +44,8 @@ window.onclick = function(event) {
   }
 }
 
- /* FOR DRAGON TO FLY */
- window.addEventListener('scroll', function() {
+  /* FOR DRAGON TO FLY */
+  window.addEventListener('scroll', function() {
     var scrollPosition = window.scrollY;
     var image = document.querySelector('.small-flying-dragon-image');
     
