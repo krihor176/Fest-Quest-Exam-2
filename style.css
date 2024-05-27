@@ -1808,21 +1808,21 @@
   }
   
   .all-images-group::-webkit-scrollbar {
-    width: inherit; /* Adjust width of the scrollbar */
+    width: inherit; 
   }
   
   .all-images-group::-webkit-scrollbar-track {
-    background: #f1f1f1; /* Color of the track (background) */
+    background: #f1f1f1;
     border-radius: 10px;
   }
   
   .all-images-group::-webkit-scrollbar-thumb {
-    background: #373636; /* Color of the scroll thumb */
+    background: #373636; 
     border-radius: 10px;
   }
   
   .all-images-group::-webkit-scrollbar-thumb:hover {
-    background: #232222; /* Color of the scroll thumb when hovered */
+    background: #232222;
   }
   
   .about-details {
@@ -2013,7 +2013,7 @@
     }
   
   
-  
+
   .rock,
   .fairy-img,
   .mushroom-img {
