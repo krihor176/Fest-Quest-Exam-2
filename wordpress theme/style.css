@@ -1,0 +1,3158 @@
+/*
+Theme Name: Fantasy Festival Quest
+Author: GROUP INT 5, Ana, Tomi, Kristijan
+Description: This is a theme for Fantasy Festival Quest that will take place in September 2024. On this website you can learn what the festival is about, buy tickets, and learn about the quests that will be available.
+Version: FINAL
+*/
+
+* {
+    font-family: "Karla";
+  }
+  
+  html {
+    scroll-behavior:smooth;
+  }
+  
+  body {
+    margin: 0;
+    line-height: normal;
+    font-family: 'Karla';
+    cursor: url(img/cursor1.png), auto;
+  }
+  
+  .rectangle-div {
+    position: absolute;
+    top: 830px;
+    left: -1px;
+    background-color: #3e4244;
+    width: 1441px;
+    height: 1796px;
+  }
+  
+  .mountain-1 {
+    position: absolute;
+    top: 2100px;
+    left: -158px;
+    width: 677px;
+    height: 604.9px;
+    object-fit: cover;
+  }
+  
+  .mountain-2 {
+    position: absolute;
+    top: 2100px;
+    left: 1200px;
+    width: 677px;
+    height: 604.9px;
+    object-fit: cover;
+  }
+  
+  .main-page-hero-background {
+    position: absolute;
+    top: 2724px;
+    left: -1px;
+    background-color: #fdfbf7;
+    width: 1441px;
+    height: 579px;
+  }
+  
+  .main-page-hero-background {
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 598px;
+  }
+  
+  .mountain-greens-1 {
+    position: absolute;
+    top: 206px;
+    left: -11px;
+    width: 1452px;
+    height: 991px;
+    object-fit: cover;
+  }
+  
+  .anniversary-invite,
+  .anniversary,
+  .about-text,
+  .about-us-text {
+    margin: 0;
+    border-bottom: 4px solid transparent;
+    transition: border-bottom 500ms ease-in-out;
+  }
+  
+  .about-us-text {
+    color: white;
+  }
+  
+  .about-text a {
+    color: #fff;
+  }
+  
+  .about-text a:visited {
+    color: #fff; 
+  }
+  
+  .about-us-text:hover {
+    border-bottom: 2px solid #fff;
+  }
+  .about-the-quests,
+  .anniversary-container,
+  .welcome-to-the {
+    position: absolute;
+    top: 344px;
+    left: 76px;
+    font-size: 24px;
+    font-weight: 600;
+    display: inline-block;
+    width: 723px;
+    height: 114px;
+    z-index: 5;
+    cursor: auto;
+  }
+  .about-the-quests,
+  .welcome-to-the {
+    top: 191px;
+    font-size: 36px;
+    width: 470px;
+    height: 72px;
+    font-family: 'IM Fell English SC';
+  }
+  .about-the-quests {
+    top: 1244px;
+    left: 127px;
+    font-size: 48px;
+    color: #fff;
+    width: 569px;
+    height: 135px;
+  }
+  .about-day-quest-container,
+  .about-us-more-container {
+    position: absolute;
+    top: 370%;
+    left: 639px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 175px;
+    height: 203px;
+    cursor: auto;
+  }
+
+
+
+  body.page-id-70 .about-day-quest-container,
+  body.page-id-70 .about-us-more-container,
+  body.page-id-70 .contact-us-container,
+  body.page-id-66 .about-day-quest-container,
+  body.page-id-66 .about-us-more-container,
+  body.page-id-66 .contact-us-container {
+    top: 340%;
+  }
+
+  body.page-id-66 .contact-us-container,
+  body.page-id-70 .contact-us-container {
+    left: 65%;
+  }
+
+  
+  body.page-id-66 .fest-sponsor-1,
+  body.page-id-66 .fest-sponsor-2,
+  body.page-id-66 .fest-sponsor-3 {
+    top: 370%;
+  }
+
+  body.page-id-70 .fest-sponsor-1,
+  body.page-id-70 .fest-sponsor-2,
+  body.page-id-70 .fest-sponsor-3 {
+    top: 2900px;
+  }
+  
+  .about-text {
+    color: #fff;
+  }
+  .about-day-quest-container {
+    top: 370%;
+    left: 285px;
+    height: 132px;
+  }
+  .fest-sponsor-1,
+  .fest-sponsor-2,
+  .fest-sponsor-3 {
+    position: absolute;
+    top: 3101px;
+    left: 314px;
+    width: 292px;
+    height: 60px;
+    object-fit: cover;
+  }
+  .fest-sponsor-2,
+  .fest-sponsor-3 {
+    left: 644px;
+    width: 153px;
+    height: 64px;
+  }
+  .fest-sponsor-3 {
+    top: 3085px;
+    left: 835px;
+    width: 217px;
+    height: 80px;
+  }
+  
+  .contact-us-container {
+    position: absolute;
+    top: 370%;
+    left: 993px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 273px;
+    height: 178px;
+    cursor: auto;
+  }
+  
+  .ticket-empty {
+    position: absolute;
+    top: 1341px;
+    left: 76px;
+    width: 819px;
+    height: 313px;
+    object-fit: cover;
+  }
+  
+  .ticket-empty-2 {
+    position: absolute;
+    top: 1686px;
+    left: 76px;
+    width: 819px;
+    height: 313px;
+    object-fit: cover;
+  }
+  
+  .day-quest {
+    cursor: auto;
+    position: absolute;
+    top: 1371px;
+    left: 408px;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: 500;
+    display: inline-block;
+    width: 156px;
+    height: 36px;
+  }
+  
+  .age-6-main,
+  .place,
+  .september-14 {
+    position: absolute;
+    top: 47px;
+    left: 0;
+    display: inline-block;
+    width: 72px;
+    height: 24px;
+    cursor: auto;
+  }
+  
+  .place,
+  .september-14 {
+    top: 22px;
+    width: 220px;
+    height: 18px;
+    cursor: auto;
+  }
+  
+  .september-14 {
+    top: 0;
+    width: 170px;
+    height: 15px;
+  }
+  
+  .age-6-parent {
+    position: absolute;
+    top: 1427px;
+    left: 605px;
+    width: 220px;
+    height: 71px;
+    font-size: 13px;
+    cursor: auto;
+    z-index: 10;
+  }
+  
+  .anniversary-container1 {
+    position: absolute;
+    top: 1426px;
+    left: 175px;
+    font-weight: 600;
+    display: inline-block;
+    width: 313px;
+    height: 94px;
+  }
+  
+  .buy-tickets,
+  .find-out-more {
+    position: absolute;
+    top: 7px;
+    left: 50px;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .buy-tickets {
+    z-index: 1;
+  }
+  
+  .find-out-more {
+    left: 0px;
+    right: 0px;
+    z-index: 5;
+  }
+  
+  .evening-quest1 {
+    position: absolute;
+    top: 1716px;
+    left: 380px;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: 500;
+    display: inline-block;
+    width: 215px;
+    height: 36px;
+    cursor: auto;
+  }
+  
+  .age-16-parent {
+    position: absolute;
+    top: 1772px;
+    left: 605px;
+    width: 220px;
+    height: 71px;
+    font-size: 13px;
+    cursor: auto;
+    z-index: 10;
+  }
+  
+  .anniversary-container2 {
+    cursor: auto;
+    position: absolute;
+    top: 1771px;
+    left: 175px;
+    font-weight: 600;
+    display: inline-block;
+    width: 313px;
+    height: 94px;
+  }
+  
+  /* START OF THE TICKETS CSS  */
+  
+  .ticket-button1,
+  .ticket-button2 {
+    font-family: 'Karla';
+    font-size: larger;
+    position: absolute;
+    top: 1530px;
+    left: 268px;
+    border-radius: 30px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: pointer;
+    width: 176px;
+    height: 38px;
+    transition: background-color 0.5s cubic-bezier(0.39, 0.58, 0.57, 1), color 0.3s ease;
+  }
+  
+  .ticket-button2 {
+    left: 531px;
+  }
+  
+  .ticket2-button1,
+  .ticket2-button2 {
+    font-family: 'Karla';
+    font-size: larger;
+    position: absolute;
+    top: 1875px;
+    left: 268px;
+    border-radius: 30px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: pointer;
+    width: 176px !important;
+    height: 38px !important;
+    transition: background-color 0.5s cubic-bezier(0.39, 0.58, 0.57, 1), color 0.3s ease;
+  }
+  
+  .ticket2-button2 {
+    left: 531px;
+  }
+  
+  .ticket-button1 {
+    color: #000; 
+  }
+  
+  .ticket-button1:hover,
+  .ticket2-button2:hover {
+    background-color: #3e4244;
+    color: #fff; 
+  }
+  
+  .ticket-button2:hover {
+    background-color: #3e4244;
+    color: #fff;
+    z-index: 2;
+  }
+  
+  .ticket2-button1:hover {
+    background-color: #3e4244;
+    color: #fff;
+  }
+  
+  .ticket-button1 a,
+  .ticket-button1 a .buy-tickets,
+  .ticket-button2 a,
+  .ticket-button2 a .find-out-more
+  .ticket2-button1 a,
+  .ticket2-button1 a .buy-tickets2,
+  .ticket2-button2 a,
+  .ticket2-button2 a .find-out-more2{
+    color: inherit; 
+    text-decoration: none;
+  }
+  
+  .buy-tickets2,
+  .find-out-more2 {
+    position: absolute;
+    top: 1884px;
+    left: 279px;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+    width: 153px;
+    height: 24px;
+  }
+  
+  .buy-tickets2, a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .find-out-more2 {
+    left: 535px;
+    z-index: 5;
+  }
+  
+  .sparky-dragon,
+  .dark-trees-2 {
+    position: absolute;
+    top: 2384px;
+    left: 1078px;
+    width: 541px;
+    height: 340px;
+    object-fit: cover;
+  }
+  
+  .dark-trees-2 {
+    z-index: 2;
+  }
+  
+  .sparky-dragon {
+    top: 472px;
+    left: 619px;
+    width: 901px;
+    height: 1555px;
+  }
+  
+  .dark-trees,
+  .video-template {
+    position: absolute;
+    top: 2100px;
+    left: 163px;
+    width: 1113px;
+    height: 624px;
+    object-fit: cover;
+  }
+  
+  .video-template {
+    z-index: 10;
+    cursor: auto;
+    margin-top: -5%;
+  }
+  
+  .dark-trees {
+    top: 2358px;
+    left: -7px;
+    width: 951px;
+    height: 366px;
+    object-fit: contain;
+    z-index: 4;
+  }
+  .main-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0e1013;
+    width: 100%;
+    height: 3303px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+  }
+  /* THIS IS WHERE THE NAVIGATION CODE STARTS */
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fdfbf7;
+    position: relative;
+    cursor: auto;
+  }
+  
+  .night-nav {
+    background-color: #aaa2a2;
+  }
+
+  
+  .dragonlogo, .logo-dragon {
+    align-items: flex-start;
+    width: 5vw; 
+    height: calc(9.24vw / 1.732);
+    object-fit: contain;
+    margin-top: 5px;
+    margin-left: 20px;
+    z-index: 10;
+  }
+  
+  .dragon-logo, .rotate {
+    animation: rotation 8s infinite linear;
+    transform-origin: center;
+  }
+  
+  .night {
+    top: 2600px;
+  }
+  
+  ul {
+    margin-right: 5%;
+  }
+  
+  ul li {
+    list-style: none;
+    text-wrap: nowrap ; 
+    display: inline-block; 
+    padding: 15px;
+    transition: background-color 0.5s cubic-bezier(0.39, 0.58, 0.57, 1), color 0.3s ease;
+    border-radius: 30px;
+  }
+  
+  ul li a{
+    text-decoration: none;
+    color: #000;
+  }
+  
+  ul li:hover {
+    background-color: #3e4244;
+    color: #fff;
+  }
+  
+  ul li a:hover {
+    color: #fff;
+  }
+
+
+
+  body.page-id-21 nav,
+  body.page-id-66 nav {
+    background-color: #fdfbf7;
+  }
+
+  body.page-id-70 {
+    background-color: #0E0E17;
+    height: 3000px;
+  }
+
+  body.page-id-66 {
+    background-color: #141310;
+    height: 3000px;
+  }
+
+
+
+
+  .everything {
+    display: flex;
+    overflow-x: auto;
+    max-width: 100%;
+    gap: 10px; 
+}
+
+   .cardone {
+    position: relative;
+    display: inline-block;
+    min-width: 30%; 
+    box-sizing: border-box;
+}
+
+.cardone img:first-child {
+    width: 100%;
+    height: auto;
+}
+
+.character {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mermaid {
+    width: 40%;
+    height: auto;
+    z-index: 1;
+}
+
+  
+  
+  .main-page {
+    width: 100%;
+    position: relative;
+    height: 3303px;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+  }
+  
+  .hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    border: none;
+    background: none;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #333;
+    position: relative;
+    width: 35px;
+    height: 25px;
+  }
+  
+  .hamburger .line {
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background: #333;
+    transition: all 0.3s ease;
+  }
+  
+  .hamburger .line:nth-child(1) {
+    top: 0;
+  }
+  
+  .hamburger .line:nth-child(2) {
+    top: 10px;
+  }
+  
+  .hamburger .line:nth-child(3) {
+    top: 20px;
+  }
+  
+  .hamburger:hover .line {
+    background: #666;
+  }
+  
+  .hamburger.active .line:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+    top: 10px;
+  }
+  
+  .hamburger.active .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger.active .line:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+    top: 29px;
+  }
+  .modal {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    transition: transform 0.5s ease;
+    transform: translateX(-100%);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .centered-content a {
+    position: relative;
+    margin: 10px 0; 
+    transition: color 0.3s ease;
+  }
+  
+  .centered-content a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: currentColor;
+    transition: width 0.3s ease;
+  }
+  
+  .centered-content a:hover {
+    color: #888;
+  }
+  
+  .centered-content a:hover::after {
+    width: 100%;
+  }
+  /* THIS IS WHERE THE MEDIA QUERIES START */
+  /* FOR THE LOGO IN NAVBAR TO ROTATE */
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(1deg);
+    }
+  }
+  
+  @media screen and (max-width: 1189px) {
+    .main-content,
+    .main-nav {
+        width: 111%;
+    }
+
+    .video-template {
+      width: 900px;
+      height: 550px;
+      left: 90px;
+      top: 2077px;
+    } 
+
+
+
+    .dragonlogo, img {
+      width: 10vw;
+      height: calc(18.48vw / 1.732);
+    }
+  
+    .sparky-dragon {
+      display: none;
+    }
+  
+    .about-day-quest-container {
+      left: 285px;
+      font-size: 20px;
+    }
+  
+    .contact-us-container {
+      left: 740px;
+      font-size: 20px;
+    }
+  
+    .about-us-more-container {
+      left: 550px;
+      font-size: 20px;
+    }
+  
+    .about-us-text:hover {
+      border-bottom: 1px solid #fff;
+    }
+
+    .wizard-image {
+      width: 476px !important;
+      height: 736px !important;
+      top: 250px !important;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .mountain-greens-1 {
+      width: 104%;
+    }
+  
+    .welcome-to-the {
+      font-size: 30px;
+      width: 370px;
+      top: 210px;
+    }
+  
+    .anniversary-container {
+      width: 450px;
+    }
+  
+    .ticket-empty,
+    .ticket-empty-2 {
+      width: 800px;
+      left: 10px;
+    }
+  
+    .day-quest {
+      left: 350px;
+    }
+  
+    .evening-quest1 {
+      left: 320px;
+    }
+  
+    .anniversary {
+      left: -40px;
+      position: relative;
+    }
+  
+    .ticket-button1,
+    .ticket2-button1 {
+      left: 200px;
+    }
+  
+    .age-6-parent,
+    .age-16-parent {
+      left: 550px;
+    }
+  
+    .ticket-button2,
+    .ticket2-button2 {
+      left: 480px;
+    }
+  
+    .about-day-quest-container {
+      left: 85px;
+      font-size: 16px;
+    }
+  
+    .contact-us-container {
+      left: 540px;
+      font-size: 16px;
+    }
+  
+    .about-us-more-container {
+      left: 350px;
+      font-size: 16px;
+    }
+  
+    .about-us-text:hover {
+      border-bottom: 1px solid #fff;
+    }
+  
+    .fest-sponsor-1 {
+      left: 110px;
+      width: 200px;
+      object-fit: contain;
+    }
+  
+    .fest-sponsor-2 {
+      left: 365px;
+      height: 60px;
+      object-fit: contain;
+    }
+  
+    .fest-sponsor-3 {
+      left: 565px;
+      height: 60px;
+      object-fit: contain;
+      top: 3095px;
+    }
+  
+    .mountain-1 {
+      width: 150%;
+    }
+  
+    .mountain-2 {
+      display: none;
+      }
+  
+    .video-template {
+      top: 2326px !important;
+      width: 70% !important;
+      height: 300px !important;
+      left: 200px;
+    }
+  
+    .dark-trees-2 {
+      left: 540px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .main-nav {
+        width: 112%;
+    }
+
+    .main-content {
+        width: 112%;
+    }
+
+    .about-sponsor-1 {
+        top: 3000px !important;
+    }
+
+    .about-sponsor-2 {
+        top: 3000px !important;
+    }
+
+    .about-sponsor-3 {
+        top: 3000px !important;
+    }
+
+    .ticket-empty,
+    .ticket-empty-2 {
+      width: 580px;
+      left: 0;
+      top: 1320px;
+    }
+  
+    .ticket-empty-2 {
+      top: 1665px;
+    }
+  
+    .day-quest {
+      left: 235px;
+      top: 1380px;
+      font-size: 25px;
+    }
+  
+    .evening-quest1 {
+      left: 210px;
+      top: 1725px;
+      font-size: 25px;
+    }
+  
+  .anniversary {
+      left: -100px;
+      position: relative;
+      font-size: 13px;
+    } 
+  
+  .ticket-button1, 
+  .ticket2-button1 {
+      left: 100px;
+      top: 1510px;
+      width: 130px !important;
+      height: 30px !important;
+      font-size: 14px;
+    }
+  
+  .ticket2-button1 {
+      top: 1855px;
+    }
+  
+  .ticket-button2, 
+  .ticket2-button2 {
+      left: 380px;
+      top: 1510px;
+      width: 130px !important;
+      height: 30px !important;
+      font-size: 14px;
+    }
+  
+  .ticket2-button2 {
+    top: 1855px;
+    }
+  
+  .age-6-parent, 
+  .age-16-parent {
+      left: 410px;
+      font-size: 9px;
+    
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    
+    .about-day-quest-container {
+      font-size: 10px;
+      left: 0;
+      top: 2750px !important;
+    }
+  
+    .contact-us-container {
+      font-size: 10px;
+      left: 280px;
+      top: 2750px !important;
+    }
+  
+    .about-us-more-container {
+      font-size: 10px;
+      left: 170px;
+      top: 2750px !important;
+    }
+  
+    .about-us-text:hover {
+      border-bottom: 1px solid #fff;
+    }
+  
+    .ticket-empty,
+    .ticket-empty-2 {
+      width: 500px;
+      left: 0;
+    }
+  
+    .day-quest {
+      left: 215px;
+      top: 1390px;
+      font-size: 20px;
+    }
+  
+    .evening-quest1 {
+      left: 190px;
+      top: 1735px;
+      font-size: 20px;
+    }
+  
+  .anniversary {
+      left: -100px;
+      position: relative;
+      font-size: 10px;
+      width: 220px;
+    } 
+  
+  .ticket-button1, 
+  .ticket2-button1 {
+      left: 100px;
+      top: 1500px;
+      width: 130px !important;
+      height: 30px !important;
+      font-size: 14px;
+    }
+  
+  .ticket2-button1 {
+      top: 1845px;
+    }
+  
+  .ticket-button2, 
+  .ticket2-button2 {
+      left: 300px;
+      top: 1500px;
+      width: 130px !important;
+      height: 30px !important;
+      font-size: 14px;
+    }
+  
+  .ticket2-button2 {
+    top: 1845px;
+    }
+  
+  
+  .age-6-parent, 
+  .age-16-parent {
+      left: 350px;
+      font-size: 9px;
+    
+    }
+  
+  .about-sponsor-1 {
+      left: 20px;
+      width: 150px;
+      top: 2950px !important;
+    }
+  
+  .about-sponsor-2 {
+      left: 180px;
+      top: 2950px !important;
+    }
+  
+  .about-sponsor-3 {
+      left: 335px;
+      width: 150px;
+      top: 2950px !important;
+    }
+  
+  .about-the-quests {
+      left: 30px;
+      font-size: 40px;
+    }
+  
+  .video-template {
+    width: 60% !important;
+    height: 200px !important;
+    top: 2400px !important;
+    left: 200px !important;
+    }
+
+    .wizard-image {
+        width: 276px !important;
+        height: 636px !important;
+        top: 200px !important;
+      }
+
+    .mobile-day-1 {
+        top: 2300px !important;
+    }
+
+    .mobile-day-2 {
+        top: 2300px !important;
+    }
+
+    .mobile-day-3 {
+        top: 2300px !important;
+    }
+
+    .sponsor-r {
+        top: 2500px !important;
+    }
+
+    .sponsor-r2 {
+        top: 2500px !important;
+    }
+
+    .sponsor-r3 {
+        top: 2500px !important;
+    }
+  }
+  
+  /* MOBILE VERSION */
+  @media screen and (max-width: 499px) {
+  
+    .logo-dragon {
+      width: 40px !important;
+      height: auto !important;
+    }
+  
+    .hamburger {
+      display: block;
+      position: absolute;
+      top: 20px;
+      z-index: 100;
+      margin-right: 20px;
+    }
+  
+    .desktop-nav {
+      display: none;
+    }
+  
+    .main-page,
+    .main-content {
+      height: 3200px;
+    } 
+  
+    .welcome-to-the {
+        position: relative;
+        font-weight: 900;
+        font-size: 20px;
+        width: 250px;
+        top: 30px;
+        left: 30px;
+      }
+  
+    .mountain-greens-1 {
+        height: 390px;
+      }
+  
+    .anniversary-big,
+    .anniversary-invite {
+        font-size: 12px;
+        width: 230px;
+        top: -220px;
+        left: -30px;
+        position: relative;
+      }
+  
+    .ticket-empty,
+    .ticket-empty-2 {
+        display: none;
+      }
+  
+    .day-quest {
+        left: 115px;
+        font-size: 40px;
+        top: 450px;
+        width: auto;
+        color: #fff;
+      }
+  
+    .age-6-parent {
+        top: 510px;
+        color: #fff;
+        font-size: 15px;
+        left: 125px;
+      }
+  
+    .place {
+        left: -10px;
+      }
+  
+    .age-6-main {
+        left: 60px;
+      }
+  
+    .rectangle-div {
+        top: -0px;
+        height: 2100px;
+      }
+  
+    .main-page-hero-background {
+        top: -5px;
+      }
+  
+    .anniversary {
+        top: -780px;
+        color: #fff;
+        text-align: center;
+        left: -105px;
+        width: 95%;
+        font-size: 20px;
+      }
+  
+    .ticket-button1 {
+        left: 150px;
+        top: 830px;
+        height: 40px !important;
+        font-size: 16px;
+        background-color: #fff;
+      }
+  
+    .ticket-button2 {
+        left: 150px;
+        top: 890px;
+        height: 40px !important;
+        font-size: 16px;
+        background-color: #fff;
+      }
+  
+    .evening-quest1 {
+        left: 70px;
+        font-size: 40px;
+        top: 1000px;
+        width: auto;
+        color: #fff;
+        z-index: 1;
+      }
+  
+    .anniversary-phone-2 {
+        top: -580px;
+        color: #fff;
+        text-align: center;
+        left: -105px;
+        width: 95%;
+        font-size: 20px;
+        z-index: 1;
+      }
+  
+    .age-16-parent {
+        top: 1060px;
+        left: 0px;
+        color: #fff;
+        font-size: 15px;
+        left: 120px;
+        z-index: 1;
+      }
+  
+    .ticket2-button1 {
+        left: 150px;
+        top: 1370px;
+        height: 40px !important;
+        font-size: 16px;
+        background-color: #fff;
+        z-index: 1;
+      }
+  
+    .ticket2-button2 {
+        left: 150px;
+        top: 1430px;
+        height: 40px !important;
+        font-size: 16px;
+        z-index: 2;
+        background-color: #fff;
+        z-index: 1;
+      }
+  
+    .ticket-button1:hover,
+    .ticket-button2:hover,
+    .ticket2-button1:hover,
+    .ticket2-button2:hover {
+      background-color: black;
+      }
+  
+      .sparky-dragon {
+        display: initial;
+        top: 750px;
+        left: -82px;
+        width: 600px;
+        height: 1000px;
+        z-index: 0;
+        transform: scaleX(-1);
+      }
+  
+      .dark-trees {
+          top: 1870px;
+          width: 100%;
+      }
+  
+      .mountain-1 {
+          width: 141%;
+          top: 1720px;
+          height: 500px;
+      }
+  
+      .video-template {
+        top: 1900px !important;
+        width: 300px !important;
+        height: 180px !important;
+        margin-left: -150px !important;
+        z-index: 5;
+      }
+    
+      .about-the-quests {
+        display: none;
+      }
+
+     
+  
+      body.page-id-21 .about-day-quest-container {
+        top: 2300px !important;
+        left: 140px !important;
+        font-size: 20px !important;
+      }
+  
+      body.page-id-21 .about-us-more-container {
+        top: 2500px !important;
+        left: 140px !important;
+        font-size: 20px !important;
+      }
+  
+      body.page-id-21 .contact-us-container {
+        top: 2700px !important;
+        left: 145px !important;
+        font-size: 20px !important;
+      }
+
+      body.page-id-21 .mail,
+      body.page-id-70 .mail {
+        margin-left: -40px;
+      }
+  
+      body.page-id-21 .about-sponsor-1 {
+        top: 2800px !important;
+        width: 80px !important;
+        height: 80px !important;
+        margin-left: 20px !important;
+      }
+  
+      body.page-id-21 .about-sponsor-2 {
+        top: 2600px !important;
+        left: 200px !important; 
+        width: 80px !important;
+        height: 80px !important;
+      }
+  
+      body.page-id-21 .about-sponsor-3 {
+        left: 300px !important;
+        top: 2600px !important;
+        width: 80px !important;
+        height: 80px !important;
+      }
+
+      body.page-id-66 .about-day-quest-container  {
+        top: 240% !important;
+        left: 30%;
+        font-size: 20px;
+      }
+
+      body.page-id-66 .about-us-more-container  {
+        top: 260% !important;
+        left: 30%;
+        font-size: 20px;
+      }
+      
+      body.page-id-66 .contact-us-container  {
+        top: 280% !important;
+        left: 33%;
+        font-size: 20px;
+      }   
+
+      body.page-id-66 .mail  {
+        margin-left: -40px;
+      }   
+
+      body.page-id-66 .fest-sponsor-1,
+      body.page-id-66 .fest-sponsor-2,
+      body.page-id-66 .fest-sponsor-3 {
+        margin-top: -650px !important;
+        margin-left: -5%;
+      } 
+
+      body.page-id-66 .fest-sponsor-3 {
+        margin-left: -8%;
+      } 
+
+      body.page-id-66 {
+        height: 2700px;
+      } 
+  
+     
+  
+      .rectangle-rounded {
+        width: 100%;
+      }
+
+      body.page-id-21 .fest-sponsor-1,
+      body.page-id-21 .fest-sponsor-2,
+      body.page-id-21 .fest-sponsor-3 {
+        margin-top: 120%;
+        margin-left: -5%;
+      } 
+
+      body.page-id-21 .fest-sponsor-3 {
+        margin-left: -8%;
+        margin-top: 122%;
+      } 
+  
+  
+    }
+  
+  
+  
+  /* DAY QUEST STYLE */
+  
+  .shape {
+    width: 100%;
+    height: 419px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fdfbf7;
+  }
+  
+  .night-shape {
+    background-color: #aaa2a2;
+  }
+  .mountain-day-image {
+    height: 1287px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .wizard-image {
+    position: absolute;
+    top: 0;
+    left: 11px;
+    width: 137px;
+    height: 103px;
+    object-fit: contain;
+    z-index: 7;
+  }
+  .wizard-image {
+    top: 87px;
+    left: 0;
+    width: 529px;
+    height: 1143px;
+    object-fit: cover;
+    z-index: 8;
+  }
+  .wizard,
+  .mountain-day {
+    margin: 0 !important;
+    position: absolute;
+    left: 0;
+  }
+  .wizard {
+    height: 1230px;
+    width: 429px;
+    bottom: -53px;
+  }
+  .mountain-day {
+    background-image: url(./img/mountain-day.png);
+    width: 100%;
+    top: -105px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  
+  
+  
+  
+  
+  .wizard-text {
+    height: 251px;
+    width: 677px;
+    position: relative;
+    border-radius: 50px 50px 50px 0;
+    background-color: #5d604f;
+    max-width: 100%;
+    display: flex;
+  }
+  
+  .night-wizard-text-mobile {
+    background-color: #0E0E17;
+  }
+  
+  .night-rectangle-mobile {
+    background-color: #0E0E17 !important;
+  
+  }
+  
+  .are-ye-ready,
+  .aye,
+  .then-buckle-up {
+    margin: 0;
+    margin-left: -25px;
+    font-family: 'IM Fell English SC';
+  }
+  .are-ye-ready-container {
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    width: 70%;
+    z-index: 8;
+    color: white;
+    top: 15px;
+    left: 30px;
+  }
+  .small-flying-dragon-image,
+  .rectangle-rounded {
+    flex-shrink: 0;
+  }
+  .rectangle-rounded {
+    width: 677px;
+    border-radius: 50px 50px 50px 0;
+    background-color: #5d604f;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 45px 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+    z-index: 7;
+  }
+  .small-flying-dragon-image {
+    left: 550px;
+    margin-top: -300px;
+    width: 5vw;
+    opacity: 0.5;
+    height: auto;
+    position: fixed;
+    object-fit: contain;
+    z-index: 0;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    will-change: transform, opacity;
+  }
+  .small-flying-dragon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 17px 0 0;
+  }
+  .dialogue {
+    width: 877.1px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .info,
+  .inner-info,
+  .dialogue {
+    display: flex;
+    max-width: 100%;
+  }
+  .inner-info {
+    width: 1199.1px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 141px;
+  }
+  .info {
+    width: 1384.9px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Karla';
+  }
+  .about-details-child {
+    align-self: stretch;
+    height: 1309px;
+    position: relative;
+    background-color: #5d604f;
+    display: none;
+    mix-blend-mode: normal;
+  }
+  .about-the-quest {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+    z-index: 3;
+  }
+  .about-header {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px;
+    text-align: left;
+  }
+  .september-14- {
+    align-self: stretch;
+    height: 15px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 3;
+  }
+  .esbjerg-library-gate {
+    line-height: 18px;
+    white-space: nowrap;
+    top: 30px;  
+  }
+  .age-6,
+  .esbjerg-library-gate {
+    align-self: center;
+    position: relative;
+    z-index: 3;
+  }
+  
+  .age-6 {
+    margin-top: 48px;
+  }
+  .event,
+  .event-details {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .event-details {
+    width: 338px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  .event {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 20px 0 21px;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  .rock {
+    height: 294px;
+    width: 205px;
+    position: relative;
+    object-fit: contain;
+    z-index: 3;
+  }
+  .description-text,
+  .description-text-under {
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  .description-text-under {
+    margin-right: 220px 
+  }
+  
+  .description-text-under-night {
+    font-weight: 600;
+    margin-right: 50px;
+  }
+  
+  .buy-a-ticket {
+    width: 205px;
+    position: relative;
+    font-size: 28px;
+    font-family: 'Karla';
+    color: #000;
+    text-align: left;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 4;
+  }
+  
+  .buy-a-ticket:hover {
+    color: #fff !important;
+  }
+  
+  .buy-a-ticket-text {
+    margin-left: -20px;
+  }
+  
+  .button-group:hover {
+    background-color: #3e4244;
+    color: #fff !important;
+  }
+  .button-parent,
+  .button-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .button-group {
+    cursor: pointer;
+    border: 0;
+    padding: 13px 20px 12.2px 46px;
+    background-color: #fff;
+    width: 485.1px;
+    border-radius: 50px;
+    z-index: 1;
+    transition: background-color 0.5s cubic-bezier(0.39, 0.58, 0.57, 1), color 0.3s ease;
+  
+  }
+  .button-parent {
+    align-self: stretch;
+    padding: 0 20px;
+  }
+  .description-box {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 62px;
+    max-width: 100%;
+  }
+  .meet-our-characters,
+  .welcome-to-text {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: 'IM Fell English SC';
+    z-index: 3;
+    left: 30px;
+  }
+  .meet-our-characters {
+    width: 343px;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+    left: 15px;
+    font-family: 'IM Fell English SC';
+  }
+  .meet-our-characters-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 21px 0 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .welcome-to-fanstasy-quest {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 23px;
+    max-width: 100%;
+  }
+  .description-parent,
+  .big-welcome {
+    display: flex;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .big-welcome {
+    width: 694px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 3px;
+    text-align: left;
+    font-size: 32px;
+  }
+  .description-parent {
+    width: 752px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 29px 0 0;
+    gap: 116.8px;
+  }
+  .fairy-img,
+  .mushroom-img {
+    position: absolute;
+    top: 85px;
+    left: 0;
+    width: 199px;
+    height: 301px;
+    object-fit: cover;
+    z-index: 3;
+  }
+  .fairy-img {
+    top: 0;
+    left: 33px;
+    width: 176px;
+    height: 251px;
+    object-fit: contain;
+    z-index: 4;
+  }
+  
+  .fairy-and-mushroom {
+    height: 448px;
+    width: 209px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .story,
+  .story-details {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .story-details {
+    width: 1332px;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .story {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 38px;
+    box-sizing: border-box;
+    font-size: 24px;
+  }
+  
+  .wizard-img{
+    width: 158.1px;
+    height: 223.7px;
+    position: relative;
+    object-fit: contain;
+    z-index: 1;
+    left: -220px;
+  }
+  .old-wizard-group {
+    width: 384px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 48px 20px 48.2px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    max-width: 100%;
+    z-index: 3;
+  }
+  .gnist-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .gnist-img {
+    top: 63.7px;
+    left: 112.9px;
+    width: 158.1px;
+    height: 223.7px;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .dragon-group {
+    height: 327.4px;
+    width: 384px;
+    position: relative;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 4;
+    margin-left: -36px;
+  }
+  .gygaz-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .gygaz-img {
+    top: 66px;
+    left: 123px;
+    width: 137px;
+    height: 195px;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .book-div {
+    align-self: stretch;
+    height: 327.4px;
+    position: relative;
+    flex-shrink: 0;
+    z-index: 5;
+  }
+  .wizard-with-book-group {
+    width: 392px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 8px 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin-left: -36px;
+  }
+  .mermaid-img,
+  .small-ticket-empty-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .small-ticket-empty-img-2 {
+    position: sticky;
+    margin-top: -48px;
+    left: 0;
+    object-fit: cover;
+    width: 384px;
+    height: 327.4px;
+  }
+  
+  .small-ticket-empty-img-3 {
+    position: absolute;
+    top: 0;
+    left: 390px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .portal-img {
+    top: 80px;
+    margin-left: 480px;
+    width: 187px;
+    height: 195px;
+    object-fit: contain;
+    z-index: 1;
+    position: sticky;
+  }
+  
+  .mermaid-img {
+    top: 32.1px;
+    left: 90.6px;
+    width: 202.8px;
+    height: 287px;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .mermaid-group {
+    height: 327.4px;
+    width: 384px;
+    position: relative;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 6;
+    margin-left: -36px;
+  }
+  
+
+  .all-images-group {
+    width: 1441px;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 5px 5.6px 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    cursor: grab;
+  }
+  
+  .all-images-group img {
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+  }
+  
+  .all-images-group img.loaded {
+    opacity: 1;
+  }
+  
+  .all-images-group:active {
+    cursor: grabbing;
+  }
+  
+  .all-images-group::-webkit-scrollbar {
+    width: inherit; 
+  }
+  
+  .all-images-group::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  .all-images-group::-webkit-scrollbar-thumb {
+    background: #373636; 
+    border-radius: 10px;
+  }
+  
+  .all-images-group::-webkit-scrollbar-thumb:hover {
+    background: #232222;
+  }
+  
+  .about-details {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  
+  .about-details {
+    box-sizing: border-box;
+  }
+  
+  .about-details {
+    background-color: #5d604f;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 46px 0 83px;
+    gap: 35px;
+    z-index: 2;
+  }
+  
+  
+  
+  .about1,
+  .morning-quest {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .about1 {
+    margin-top: 180px;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Karla';
+  }
+  
+  .night-about-section {
+    margin-top: 72px;
+  }
+  
+  .night-about-deails {
+    background-color: #0E0E17;
+  }
+  
+  .morning-quest {
+    position: relative;
+  }
+  
+  .footer-day {
+    height: 550px !important;
+    background-color: #373636;
+  }
+  
+  .day {
+    top: 2650px;
+  }
+  
+  .day-sponsor,
+  .night-sponsor {
+    top: 2900px;
+  }
+  
+  .mountain-night-image {
+    background-image: url(.img/malice-big.png);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 1105px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .malice-big {
+    position: absolute;
+    top: 45px;
+    left: -78px;
+    width: 1518px;
+    height: 1272px;
+    z-index: 5;
+  }
+  
+  .malice-big-image {
+    
+    top: 0;
+    left: -162px;
+    width: 926px;
+    height: 1235px;
+    object-fit: contain;
+    z-index: 4;
+  }
+  
+  
+  .morning-quest {
+    flex: 1;
+    background-color: #fff;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 35px 0 0;
+    box-sizing: border-box;
+    gap: 627px;
+    max-width: 100%;
+  }
+  
+  .footer-night {
+    height: 550px !important;
+    background-color: #aaa2a2 !important;
+  }
+  
+  @media screen and (max-width: 1275px) {
+    .inner-info {
+      gap: 70px;
+    }
+    .story-details {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .about-details {
+      padding-top: 30px;
+      padding-bottom: 54px;
+      box-sizing: border-box;
+    }
+  
+    .day-sponsor,
+    .night-sponsor {
+      top: 3400px;
+    }
+  
+    .day {
+      top: 3150px;
+    }
+  }
+  
+  @media screen  and (max-width: 1065px){
+    .wizard-text {
+        height: 200px;
+        width: 577px; 
+        font-size: 25px;
+    }
+  
+    .rectangle-rounded {
+      margin-left: 200px;
+    }
+  
+    .small-flying-dragon-image {
+      margin-top: -500px;
+    }  
+  
+    .about-details {
+      margin-top: 50px;
+    }
+  
+    .about-header {
+      margin-left: 70px;
+    }
+  
+    .event-details {
+      margin-left: 20px;
+      margin-top: 25px;
+    }
+  
+    .description-text {
+      margin-left: 300px;
+    }
+  
+    .description-text-under {
+      margin-right: 65px;
+  }
+  
+    .button-group {
+      margin-left: 300px;
+    }
+  
+    .welcome-to-fanstasy-quest {
+      margin-left: 240px;
+      font-size: 23px;
+    }
+  
+    .meet-our-characters {
+      left: 100px;
+    }
+  
+  
+
+  .rock,
+  .fairy-img,
+  .mushroom-img {
+    display: none;
+  }
+  
+  
+  
+    .day {
+      left: 200px;
+      top: 2800px;
+    }
+  
+    .mobile-day-2 {
+      left: 500px;
+    }
+  
+    .mobile-day-3 {
+      left: 750px;
+    }
+  
+    .day-sponsor,
+    .night-sponsor {
+      left: 200px;
+      top: 3100px;
+    }
+  
+    .sponsor-r2 {
+      left: 530px;
+    }
+  
+    .sponsor-r3 {
+      left: 750px;
+      top: 3090px;
+    }
+  }
+  
+  @media screen and (max-width: 1100px) {
+    .dialogue {
+      flex-wrap: wrap;
+    }
+  }
+    @media screen and (max-width: 915px) {
+
+
+        .main-page,
+        .main-page-day {
+            width: 109%;
+        }
+
+        .main-nav,
+        .day-nav {
+            width: 109%;
+        }
+
+        .about-sponsor-1 {
+            top: 3000px !important;
+        }
+
+        .about-sponsor-2 {
+            top: 3000px !important;
+        }
+
+        .about-sponsor-3 {
+            top: 3000px !important;
+        }
+
+        .video-template {
+            width: 800px;
+            height: 500px;
+            margin-left: -90px;
+            top: 2126px;
+        }
+
+        .mountain-night-image { 
+            height: 1130px;
+        }
+
+        .malice-big-image {
+            width: 826px;
+        } 
+
+        .shape {
+            height: 435px;
+        }
+
+        .about-the-quest {
+            left: -25px;
+        }
+
+        .description-text {
+            margin-left: 0;
+        }
+
+        .button-group {
+            margin-left: 0;
+        }
+
+        .welcome-to-fanstasy-quest {
+            margin-left: 80px;
+        }
+
+        .meet-our-characters {
+            left: 30px;
+        }
+
+        .story {
+            height: 680px;
+        }
+
+        .about-day-quest-container {
+            left: 150px;
+        }
+
+        .about-us-more-container {
+            left: 400px;
+        }
+
+        .contact-us-container {
+            left: 600px;
+        }
+
+        .fest-sponsor-1 {
+            left: 80px;
+            top: 2850px;
+        }
+
+        .fest-sponsor-2 {
+            left: 420px;
+            top: 2850px;
+}
+        
+
+        .fest-sponsor-3 {
+            left: 635px;
+            top: 2835px;
+        }
+
+        .footer-night {
+            height: 450px !important;
+        }
+  
+}
+
+  @media screen and (max-width: 780px) {
+    .night-nav {
+        width: 100%;
+    }
+
+    .shape {
+        width: 100%;
+    }
+
+    .mountain-day {
+        width: 100%;
+    }
+
+    .malice-big-image { 
+        width: 726px;
+        margin-top: -180px;
+    }
+    
+    .are-ye-ready-container {
+      font-size: 24px;
+    }
+
+    .rectangle-rounded {
+        width: 377px;
+        margin-left: 350px;
+    }
+
+    .are-ye-ready-container {
+        font-size: 20px;
+    }
+  
+    .inner-info {
+      gap: 35px;
+    }
+    .about-the-quest {
+      font-size: 29px;
+    }
+    .description-box {
+      gap: 31px;
+    }
+    .meet-our-characters,
+    .welcome-to-text {
+      font-size: 26px;
+      left: 0px;
+    }
+
+    .description-text-under-night {
+        margin-left: 60px;
+    }
+  
+    .about-details {
+      gap: 17px;
+      padding-top: 20px;
+      padding-bottom: 35px;
+      box-sizing: border-box;
+    }
+
+    .morning-quest {
+      gap: 313px;
+    }
+
+    .about-day-quest-container {
+      top: 2200px;
+      left: 100px;
+    }
+
+    .about-us-more-container {
+      top: 2200px;
+      left: 320px;
+    }
+
+    .contact-us-container {
+      top: 2200px;
+      left: 500px;
+    }
+
+    .fest-sponsor-1 {
+      left: 60px;
+      top: 2400px;
+    }
+
+    .fest-sponsor-2 {
+      left: 350px;
+      top: 2400px;
+    }
+
+    .fest-sponsor-3 {
+      left: 535px;
+      top: 2390px;
+    }
+
+    .main-footer-1 {
+        top: 2750px;
+    }
+
+    .main-footer-2 {
+        top: 2750px;
+    }
+
+    .main-footer-3 {
+        top: 2750px;
+    }
+
+    .about-sponsor-1 {
+      left: 60px;
+      top: 2900px !important;
+    }
+
+    .about-sponsor-2 {
+      left: 350px;
+      top: 2900px !important;
+    }
+
+    .about-sponsor-3 {
+      left: 535px;
+      top: 2890px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .night-nav {
+      width: 100% !important;
+    }
+
+    .mountain-day {
+        width: 100%;
+    }
+
+    .shape {
+        width: 100%;
+    }
+
+
+
+    .night-about-section {
+        width: 100%;
+    }
+
+
+
+
+    .about-day-quest-container {
+        left: 100px;
+    }
+
+    .about-us-more-container {
+        left: 320px;
+    }
+
+    .contact-us-container {
+        left: 500px;
+    }
+
+    .fest-sponsor-1 {
+        left: 60px;
+        top: 2400px;
+    }
+
+    .fest-sponsor-2 {
+        left: 350px;
+        top: 2400px;
+    }
+
+    
+
+  }
+
+  @media screen and (max-width: 750px) {
+    .malice-big-image {
+        width: 526px;
+        margin-top: -180px;
+    }
+
+    .rectangle-rounded {
+        margin-left: 250px;
+    }
+
+    .about-day-quest-container {
+        left: 20px;
+        font-size: 14px;
+    }
+
+    .about-us-more-container {
+        left: 250px;
+        font-size: 14px;
+    }
+
+    .contact-us-container {
+        left: 425px;
+        font-size: 14px;
+    }
+
+    .fest-sponsor-1 {
+        left: 60px;
+        top: 2400px;
+        width: 150px;
+    }
+
+    .fest-sponsor-2 {
+        left: 290px;
+        top: 2400px;
+        width: 150px;
+    }
+
+    .fest-sponsor-3 {
+        left: 475px;
+        top: 2390px;
+        width: 150px;
+    }
+
+    .about-sponsor-1 {
+        left: 60px;
+        top: 2900px;
+        width: 150px;
+    }
+
+    .about-sponsor-2 {
+        left: 290px;
+        top: 2900px;
+        width: 150px;
+    }
+
+    .about-sponsor-3 {
+        left: 475px;
+        top: 2890px;
+        width: 150px;
+    }
+
+    .main-footer-1 {
+        top: 2750px;
+    }
+
+    .main-footer-2 {
+        top: 2750px;
+    }
+
+    .main-footer-3 {
+        top: 2750px;
+    }
+
+    .mobile-day-1 {
+        top: 2350px;
+    }
+
+    .mobile-day-2 {
+        top: 2350px;
+    }
+
+    .mobile-day-3 {
+        top: 2350px;
+    }
+
+    .day-sponsor {
+        top: 2550px;
+    }
+
+    .wizard-image {
+        width: 376px !important;
+        height: 736px !important;
+        top: 125px !important;
+    }
+
+
+
+
+  }
+
+  @media screen and (max-width: 650px) {
+    body.page-id-66 .about-details {
+      margin-top: 100px;
+      height: 1400px;
+    }
+
+    body.page-id-66 .welcome-to-fanstasy-quest {
+      margin-top: 20%;
+    }
+
+    body.page-id-66 .welcome-to-text-day {
+      text-align: center;
+      margin-left: 30px;
+    }
+
+    body.page-id-70 .welcome-to-text {
+      text-align: center;
+      margin-left: 30px;
+    }
+
+    body.page-id-66 .everything {
+      margin-top: 70%;
+    }
+
+    body.page-id-66 .rectangle-rounded {
+      width: 60%;
+      margin-top: 5%;
+      margin-left: 40%;
+    }
+
+    body.page-id-66 .meet-our-characters,
+    body.page-id-70 .meet-our-characters {
+      margin-left: 135px;
+    }
+    
+    .main-page-day {
+        width: 100%;
+    }
+
+    .day-nav {
+        width: 100%;
+    }
+
+
+    .main-footer-1 {
+        top: 2750px;
+    }
+
+    .main-footer-2 {
+        top: 2750px;
+
+    }
+
+    .main-footer-3 {
+        top: 2750px;
+    }
+
+    .about-sponsor-1 {
+        top: 2900px !important;
+    }
+
+    .about-sponsor-2 {
+        top: 2900px !important;
+    }
+
+    .about-sponsor-3 {
+        top: 2900px !important;
+    }
+
+    .malice-big-image {
+        width: 426px;
+        margin-top: -180px;
+    }
+
+    .rectangle-rounded {
+        margin-left: 200px;
+    }
+
+    .about-day-quest-container {
+        left: 20px;
+        font-size: 14px;
+    }
+
+    .about-us-more-container {
+        left: 250px;
+        font-size: 14px;
+    }
+
+    .contact-us-container {
+        left: 425px;
+        font-size: 14px;
+    }
+
+    .fest-sponsor-1 {
+        left: 60px;
+        top: 2400px;
+        width: 150px;
+    }
+
+    .fest-sponsor-2 {
+        left: 290px;
+        top: 2400px;
+        width: 150px;
+    }
+
+    .fest-sponsor-3 {
+        left: 475px;
+        top: 2390px;
+        width: 150px;
+    }
+  }
+    @media screen and (max-width: 599px) {
+        .malice-big-image {
+            width: 426px;
+            margin-top: -180px;
+        }
+    
+        .rectangle-rounded {
+            margin-left: 100px;
+        }
+
+        .are-ye-ready-container {
+            font-size: 17px;
+        }
+
+        .button-group {
+            margin-left: 25px;
+        }
+
+        .about-day-quest-container {
+            left: 0px;
+            font-size: 14px;
+        }
+    
+        .about-us-more-container {
+            left: 150px;
+            font-size: 14px;
+        }
+    
+        .contact-us-container {
+            left: 322px;
+            font-size: 14px;
+            width: 150px;
+        }
+    
+        .fest-sponsor-1 {
+            left: 60px;
+            top: 2400px;
+            width: 100px;
+        }
+    
+        .fest-sponsor-2 {
+            left: 190px;
+            top: 2400px;
+            width: 100px;
+        }
+    
+        .fest-sponsor-3 {
+            left: 320px;
+            top: 2390px;
+            width: 100px;
+        }
+  }
+
+
+  @media screen and (max-width: 499px) {
+    .are-ye-ready-container {
+      font-size: 12px;
+      left: 30px;
+      top: 10px;
+  
+      }
+    .inner-info {
+      gap: 18px;
+    }
+    .about-the-quest {
+      font-size: 30px;
+      top: 25px;
+      left: -20px;
+    }
+    .september-14- {
+      font-size: 16px;
+    }
+    .esbjerg-library-gate {
+      line-height: 14px;
+    }
+    .age-6,
+    .esbjerg-library-gate {
+      font-size: 16px;
+    }
+  
+    .buy-a-ticket {
+      font-size: 22px;
+    }
+    .button-group {
+      padding-left: 20px;
+      box-sizing: border-box;
+    }
+    .description-box {
+      gap: 15px;
+    }
+    .meet-our-characters {
+      font-size: 19px;
+      margin-left: 185px;
+    }
+    .meet-our-characters-day {
+        font-size: 19px;
+        margin-left: 135px;
+      }
+  
+  
+    .morning-quest {
+      gap: 157px;
+    }
+  
+    .wizard-image {
+      width: 276px !important;
+      height: 536px !important;
+      top: 620px !important;
+    }
+  
+      .rectangle-rounded {
+        width: 250px;
+        padding: 0 10px 0;
+        margin-top: 0px;
+        margin-left: 150px;
+      }
+  
+      .are-ye-ready,
+      .aye,
+      .then-buckle-up {
+        font-size: 12px;
+      }
+  
+      .about-details {
+        margin-top: 150px;
+      }
+  
+      .mountain-day-image {
+        height: 390px;
+        margin-top: 100%;
+  
+      }
+  
+      .wizard-text {
+        height: 140px;
+        width: 170px;
+      }
+  
+      .rock,
+      .fairy-img,
+      .mushroom-img {
+        display: none;
+      }
+  
+      .description-text {
+        margin-left: 30px;
+      }
+  
+      .description-text-under {
+        margin-left: 100px;
+  
+      }
+  
+      .welcome-to-text {
+        font-size: 19px;
+        margin-left: 85px;
+      }
+
+      .welcome-to-text-day {
+        font-size: 19px;
+        margin-left: 60px;
+      }
+  
+      .new-line-welcome-text {
+          display: block;
+          text-align: center;   
+      }
+  
+      .button-group {
+        width: 172px;
+        height: 38px;
+        top: 40px;
+      }
+  
+      .buy-a-ticket-text {
+        margin-left: 0;
+        margin-top: -5px;
+      }
+  
+      .images-day {
+        margin-top: 140px;
+      }
+  
+      .footer-day {
+        height: 700px !important;
+      }
+  
+      .body.page-id-66-night {
+        height: 800px !important;
+      }
+  
+      
+      .mobile-day-2 {
+        top: 2450px !important;
+        left: 125px;
+    }
+  
+      .mobile-day-3 {
+        top: 2600px !important;
+        left: 138px !important;
+      }
+  
+      .day-sponsor {
+        top: 2800px !important;
+        left: 20px;
+      }
+  
+      .night-sponsor {
+        top: 2650px;
+        left: 60px;
+      }
+  
+      .night-sponsor-2 {
+        top: 2655px;
+        left: 180px;
+        width: 80px;
+    
+      }
+  
+      .night-sponsor-3 {
+        top: 2640px;
+        left: 310px;
+      }
+  
+      .sponsor-r2 {
+        left: 180px;
+        top: 2805px;
+      }
+  
+      .sponsor-r3 {
+        top: 2810px;
+        left: 310px;
+      }
+  
+      .night-nav {
+        height: 0px;
+      }
+  
+      .malice-big-image {
+        width: 450px;
+        height: 700px;
+        object-fit: cover;
+        margin-top: 100px;
+      }
+  
+      .night-rectangle-mobile {
+        margin-top: 20px;
+        padding: 0 35px 0 10px;
+      }
+  
+      .mountain-night-image {
+        width: 100%;
+        height: 401px;
+        margin-top: 315px;
+      }
+  
+      .description-text-under-night {
+        width: 180px;
+      }
+  
+      .new-line-welcome-text-night {
+        display: block;
+        text-align: center; 
+      }
+  
+      .shape {
+        height: 600px !important;
+      }
+  
+      .small-flying-dragon-image {
+        z-index: 1;
+        width: 100px;
+        height: 100px;
+        margin-left: -100px !important;
+        margin-top: -280px !important;
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+
+      .about-day-quest-container {
+        left: 130px;
+    }
+
+    .about-us-more-container {
+        left: 130px;
+        top: 2350px;
+    }
+
+    .contact-us-container {
+        left: 140px;
+        top: 2500px;
+    }
+
+    body.page-id-70 .fest-sponsor-1,
+    body.page-id-70 .fest-sponsor-2,
+    body.page-id-70 .fest-sponsor-3 {
+        margin-top: -200px;
+        margin-left: -5%;
+      } 
+
+      body.page-id-66 .fest-sponsor-3 {
+        margin-left: -8%;
+      } 
+
+      body.page-id-66 footer {
+        background-color: #373636 !important;
+        height: 1000px;
+    }
+
+      
+
+
+
+    body.page-id-21 .main-page,
+    body.page-id-21 .main-content {
+        width: 100%;
+      width: 100%;
+    } 
+
+    body.page-id-21 .welcome-to-the {
+      top: 5%;
+    }
+
+    body.page-id-21 .anniversary-big,
+    body.page-id-21 .anniversary-invite{
+      top: -90%;
+    }
+
+    body.page-id-70 .about-day-quest-container {
+      top: 2100px !important;
+      left: 140px !important;
+      font-size: 20px !important;
+    }
+
+    body.page-id-70 .about-us-more-container {
+      top: 2300px !important;
+      left: 130px !important;
+      font-size: 20px !important;
+    }
+
+    
+    body.page-id-70 .contact-us-container {
+      top: 2500px !important;
+      left: 140px !important;
+      font-size: 20px !important;
+    }
+
+   
+
+  }
+
+  @media screen and (max-width: 1057px) {
+    
+    .mobile-day-1 {
+        top: 3300px;
+        font-size: 16px;
+        left: 100px;
+    }
+
+    .mobile-day-2 {
+        top: 3300px;
+        font-size: 16px;
+        left: 400px;
+    }
+
+    .mobile-day-3 {
+        top: 3300px;
+        font-size: 16px;
+        left: 650px;
+    }
+
+    .sponsor-r {
+        top: 3500px;
+        font-size: 16px;
+        left: 100px;
+    }
+
+    .sponsor-r2 {
+        top: 3500px;
+        font-size: 16px;
+        left: 400px;
+    }
+
+    .sponsor-r3 {
+        top: 3500px;
+        font-size: 16px;
+        left: 600px;
+    }
+    
+  }
+
+  
